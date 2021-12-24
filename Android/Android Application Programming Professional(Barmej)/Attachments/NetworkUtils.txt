@@ -1,0 +1,15 @@
+    private static final String BASE_URL = "https://api.openweathermap.org/data/2.5/";
+
+    private static final String WEATHER_ENDPOINT = "weather";
+    private static final String FORECAST_ENDPOINT = "forecast";
+
+    private static final String QUERY_PARAM = "q";
+    private static final String FORMAT_PARAM = "mode";
+    private static final String UNITS_PARAM = "units";
+    private static final String LANG_PARAM = "lang";
+    private static final String APP_ID_PARAM = "appid";
+
+    private static final String FORMAT = "json";
+
+    private static final String METRIC = "metric";
+    private static final String IMPERIAL = "imperial";
