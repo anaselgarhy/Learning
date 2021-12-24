@@ -1,0 +1,30 @@
+<string-array name="questions">
+    <item>The official currency of Kuwait is the Kuwaiti riyal?</item>
+    <item>Toubkal is the highest peak in the Arab world?</item>
+    <item>Algeria is the largest Arab country in terms of area?</item>
+    <item>Casablanca is the capital of Morocco?</item>
+    <item>Kabul is the capital of Afghanistan?</item>
+    <item>The biggest invertebrate animal is the jellyfish?</item>
+    <item>The Arab country with which the Equator passes is Sudan?</item>
+    <item>The heart is the largest organ of the human body?</item>
+    <item>The first mosque in Islam is the Prophet\'s Mosque?</item>
+    <item>The only uncle of your aunt\'s children is your father?</item>
+    <item>The world\'s first banana production country is Ecuador?</item>
+    <item>The capital of Argentina is Baku?</item>
+    <item>Vietnam\'s currency is Dong?</item>
+</string-array>
+<string-array name="answers_details">
+    <item>The official currency of Kuwait is the Kuwaiti riyal</item>
+    <item>Topkale is the highest mountain peak in the Arab world and located in Morocco</item>
+    <item>Algeria is the largest Arab country in terms of area</item>
+    <item>Rabat is the capital of Morocco</item>
+    <item>Kabul is the capital of Afghanistan</item>
+    <item>The biggest invertebrate animal is squid</item>
+    <item>The Arab country with which the Equator passes is Somalia.</item>
+    <item>The liver is the largest organ of the human body</item>
+    <item>The first mosque in Islam is the Qebaa mosque</item>
+    <item>The only uncle of your aunt\'s children is your father</item>
+    <item>The world\'s first banana production country is Ecuador</item>
+    <item>The capital of Argentina is Buenos Aires</item>
+    <item>Vietnam\'s currency is Dong</item>
+    </string-array>
