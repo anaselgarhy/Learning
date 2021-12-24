@@ -1,0 +1,30 @@
+<string-array name="questions">
+    <item>La monnaie officielle du Koweït est le riyal koweïtien?</item>
+    <item>Le Toubkal est le plus haut sommet du monde arabe?</item>
+    <item>L\'Algérie est le plus grand pays arabe en termes de superficie?</item>
+    <item>Casablanca est la capitale du Maroc?</item>
+    <item>Kaboul est la capitale de l\'Afghanistan?</item>
+    <item>Le plus gros animal invertébré est la méduse?</item>
+    <item>Le pays arabe avec lequel l\'Equateur passe est le Soudan?</item>
+    <item>Le coeur est le plus grand organe du corps humain?</item>
+    <item>La première mosquée de l\'islam est la mosquée du prophète?</item>
+    <item>Votre père est le seul oncle des enfants de votre tante?</item>
+    <item>L\'Équateur est le premier pays producteur de bananes au monde</item>
+    <item>La capitale de l\'Argentine est Bakou?</item>
+    <item>La monnaie du Vietnam est-elle le Dong?</item>
+</string-array>
+<string-array name="answers_details">
+    <item>La monnaie officielle du Koweït est le riyal koweïtien</item>
+    <item>Topkale est le plus haut sommet du monde arabe situé au Maroc</item>
+    <item>L\'Algérie est le plus grand pays arabe en termes de superficie</item>
+    <item>Rabat est la capitale du Maroc</item>
+    <item>Kaboul est la capitale de l\'Afghanistan</item>
+    <item>Le calmar est le plus gros animal invertébré</item>
+    <item>Le pays arabe avec lequel l\'Equateur passe est la Somalie.</item>
+    <item>Le foie est le plus grand organe du corps humain</item>
+    <item>La mosquée Qebaa est la première mosquée de l\'islam</item>
+    <item>Votre père est le seul oncle des enfants de votre tante</item>
+    <item>Le premier pays producteur de bananes au monde est l\'Equateur</item>
+    <item>La capitale de l\'Argentine est Buenos Aires</item>
+    <item>La monnaie du Vietnam est le Dong</item>
+    </string-array>
