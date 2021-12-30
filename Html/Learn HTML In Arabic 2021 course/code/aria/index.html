@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ARIA</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Book title</h1>
+        <h2>Chapter one</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit officiis, repellendus corporis molestiae maxime praesentium 
+            illum mollitia esse fugiat aliquid quas ullam aperiam eius atque non nesciunt, tempore doloremque delectus!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, alias. 
+            Repellendus nostrum nobis, perferendis libero deserunt odit cum! Alias, 
+            ipsam reprehenderit! Tempora deserunt fugiat voluptatibus nisi ipsam dignissimos, nulla dolores.
+        </p>
+        <hr>
+        <!--
+            علشان اخلي العنصر قابل للتاب(يعني ممكن احددة بالتاب) بستعمل خاصية
+            tabbindex
+            وبدي لكل العناصر اللي مرتبطة ببعضيها نفس الاندكس
+        -->
+        <h2>Plans 1</h2>
+        <div tabindex="0">Plan 1</div>
+        <div tabindex="0">Plan 2</div>
+        <div tabindex="0">Plan 3</div>
+        <hr>
+
+        <!--
+            ولو عندي عنصر بيقوم بنفس وظيفة عنصر تاني بستعمل خاصية
+            role
+            علشان الاسكرين ريدر يفهم كدة
+        -->
+        <h2>Plans 2</h2>
+        <div tabindex="1" role="checkbox" aria-checked="true">Plane 1</div>
+        <div tabindex="1" role="checkbox">Plane 2</div>
+        <div tabindex="1" role="checkbox">Plane 3</div>
+    </body>
+    </body>
+</html>

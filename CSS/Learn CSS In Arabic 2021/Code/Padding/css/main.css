@@ -1,0 +1,10 @@
+div {
+    /* Top Rigth Bottom Left */
+    padding: 20px; /* 20px 20px 20px 20px */
+    padding: 30px 40px; /* 30px 40px 30px 40px */
+    padding: 60px 70px 80px; /* 60px 70px 80px 70px */
+    padding: 50px 70px 67px 77px; 
+    
+    padding-top: 400px;
+    padding-left: 300px;
+}

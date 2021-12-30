@@ -1,0 +1,12 @@
+div {
+    background-image: url(../images/java-3.jpg);
+    background-attachment: scroll; /* Defualt value */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-position: 50% 50%; /* Center */
+    background-size: cover;
+    background-size: contain; /* no crop */
+    background-size: 50px 90px; /* width = 50px, height = 90px */
+    background-size: 50% 50%; /* width = 50%, height = 50% */
+}

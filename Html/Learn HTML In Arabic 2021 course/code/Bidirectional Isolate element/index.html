@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bidirectional Isolate element &lt;bdi&gt;</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--
+            لو كتبت نص عربي وبعديه رقم وكلمة انجلش هتلاقي الرقم جه بعد الكلمة العربي ودي مشكلة
+        -->
+        <span> مرحبا 2 Welcome</span>
+        <br>
+
+        <!--
+            وعلشان احل المشكلة دي لازم اعزل النص العربي عن طريق اني احطة بداخل تاج
+            <bdi>
+        -->
+        <span><bdi>مرحبا</bdi> 2 Welcome</span>
+    </body>
+</html>

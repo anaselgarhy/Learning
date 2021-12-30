@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1616679063 source:d:\the works\c projects\ncurses test\test.c
+	<ncurses.h>
+
+1616487027 c:\librerias\ncurses\include\ncursesw\ncurses.h
+	<ncursesw/ncurses_dll.h>
+	<stdint.h>
+	<stdnoreturn.h>
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdbool.h>
+	<libutf8.h>
+	<wchar.h>
+	<ncursesw/unctrl.h>
+
+1616487027 c:\librerias\ncurses\include\ncursesw\ncurses_dll.h
+
+1616487027 c:\librerias\ncurses\include\ncursesw\unctrl.h
+	<ncursesw/curses.h>
+
+1616487027 c:\librerias\ncurses\include\ncursesw\curses.h
+	<ncursesw/ncurses_dll.h>
+	<stdint.h>
+	<stdnoreturn.h>
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdbool.h>
+	<libutf8.h>
+	<wchar.h>
+	<ncursesw/unctrl.h>
+

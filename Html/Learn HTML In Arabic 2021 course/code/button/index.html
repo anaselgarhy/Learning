@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Button, &lt;button&gt;</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--
+            في بعض الاحيان بنبقا عايزين نعمل زر في االفورم غير الريست والسبمنت وهنا بنصتعمل تاج ال
+            <button>
+            واللي بيختلف عن تاج
+            <input>
+            في انو مختص بالأزرار بس ومش سييلف كلوز تاج(يعني ليه قفله)
+            زي input البوتن في حالة اناا حطيناه فس الفورم بيقدر ياخد معظ الخصائص اللي كان بياخدها ال
+            type          => واللي بتاخد 3 قيم بس في حالة البوتن وهما سبمت اوريست او بوتن
+            name
+            value
+            ....
+            وحاجات تاني كتير بس اهم خاصيتين بالنسبة ليا هما
+            onclick       => واللي بتسمحلكك تشغل سكربت معين اول ما اليوزر يدوس علي الزر
+            ondblclick    => واللي بتسمحلك ترن اسكربت معين اول ما اليوزر يدوس دابل كليك علي الزر
+        -->
+        <form action="" method="GET">
+            <button type="button">Click me</button>
+        </form>
+        <hr>
+
+        <button onclick="window.alert('Hi!');">One click</button>
+        
+        <button ondblclick="window.alert('Bay !');">Double click</button>
+    </body>
+</html>

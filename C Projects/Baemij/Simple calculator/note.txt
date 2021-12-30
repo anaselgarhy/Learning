@@ -1,0 +1,8 @@
+
+> 1+2
+readInput = '1'     numLoobForIn = 1    numbersEnd[0] = 1    placeNumbers[0] =0      numForLoobNum = 1   i = 1
+readInput = '+'     endChar[1] = '+'    numForLoobChar =1    i = 2
+readInput = '2'     numLoobForIn = 1    numbersEnd[i] = 2    placeNumbers[1] = 2     numForLoobNum = 2   i = 3
+= 3
+> sqr 2
+= 1.414

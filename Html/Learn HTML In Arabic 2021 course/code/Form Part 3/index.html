@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Part 3 - Action, Name, Method</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--
+            علشان احدد المكان اللي هاتتبعت ليه البيانت من الفورم لما اليوزر يدوس ارسال بستعمل خاصية 
+            action
+            واللي بتاخد رابط االملف اللي عايز ابعت ليه الداتا واللي عادة بيكون ملف 
+            php or jsp or asp
+            ولو عايز ابعت الملفات لنفس الصفحة ممكن ما اكتبش حاجة او ما اكتبش الخااصية دي اصلا
+            وهنا لازم تخلي بالك من حاجة مهمة وهيا انك تدي لكل حقل اسم علشان نميز بيه البيانات
+        -->
+        <form action="./script.php">
+            <div>
+                <label>Username</label>
+                <input type="text" name="username" required>
+            </div>
+            <br>
+            <div>
+                <label>Password</label>
+                <input type="password" name="password" required>
+            </div>
+            <input type="submit">
+        </form>
+        <hr>
+
+        <!--
+            ولو تلاحظ في الفورم اللي فوق البيانات بتتبعت في الرابط ودي اسمها طريقة جيت
+            GET
+            بس انا لو ببعت بيانات حساسة زي كلمة السر مش عايز البيانات دي تبان في العنوان بستعمل خاصية
+            method
+            وبغير القيمة الافتراضية(اللي هيا جيت) ل بوست
+            POST
+        -->
+        <form action="" method="POST">
+            <div>
+                <label>Username</label>
+                <input type="text" name="username" required>
+            </div>
+            <br>
+            <div>
+                <label>Password</label>
+                <input type="password" name="password" required>
+            </div>
+            <input type="submit">
+        </form>
+    </body>
+</html>

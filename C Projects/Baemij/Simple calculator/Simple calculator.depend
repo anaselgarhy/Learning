@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1610910127 source:d:\the works\c projects\simple calculator\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<ctype.h>
+	<string.h>
+

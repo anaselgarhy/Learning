@@ -1,0 +1,29 @@
+div {
+    background-color: #ddd;
+    display: inline-block;
+    font-size: 40px;
+    padding: 20px;
+    margin: 10px;
+    outline: 5px solid black;
+    border-width: 5px;
+}
+
+.shape-1 {
+    border-style: solid;
+    border-color: red;
+}
+
+.shape-2 {
+    border-style: solid;
+    border-color: blue green;
+}
+
+.shape-3 {
+    border-style: dashed;
+    border-top-color: red;
+    border-left-color: yellow;
+    border-bottom-color: blue;
+    border-right-color: green;
+    /* or */
+    border-color: red yellow blue green;
+}

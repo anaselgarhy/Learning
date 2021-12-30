@@ -1,0 +1,19 @@
+بجانب كل Attribute من الموجودين في المثال قم بكتابة هل هو من ال Global Attributes أم لا ؟
+title
+href
+src
+hidden
+charset
+class
+id
+type
+
+A: 
+title      - true
+href       - false
+src        - false
+hidden     - true
+charset    - false
+class      - true
+id         - true
+type       - false

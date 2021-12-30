@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Part 5 - ReadOnly, Disabled, Autofocus</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--
+            لو عايز اخلي عنصر من عناصر الادخال للقراءة فقط وما ينفعش اليوزر يعدل علي قيمته بستعمل الخاصية ريد اونلي
+            readonly
+            وساعتها يستعمل الخاصية فاليو
+            value
+            علشان اديله قيمة علشان يبقا للموضوع معني، والا ما كنتش عملت العنصر ده اصلا ما دام مش هسمح لليوزر يدخل حاجة ومش هديله قيمة
+            وركذ هنا اي عنصر ريد اونلي اليوزر ما يقدرش يعدل عليه لاكن قيمته بتتبعت مع الريكويست
+        -->
+        <form action="" method="GET">
+            <div>
+                <label>Username</label>
+                <input type="text" name="username" value="Anas-Elgarhy" readonly>
+            </div>
+            <br>
+            <div>
+                <label>Password</label>
+                <input type="password" placeholder="new password" name="password"> 
+            </div>
+            <input type="submit" value="Save">
+        </form>
+        <hr>
+
+        <!--
+            اما لو مش عايز اليوزر يقدر يعدل علي القيمة وفي نفس الوقت القيمة بتاعة الفيلد ده ما تتبعتش لان مافيش داعي
+            من اني ابعت كل مرة نفس القيمة وانا اوردي عارفها،بستعمل خاصية ديسابليد
+            disabled
+            كدة اليوزر مش هايقدر يعدل علي الحقل ده كما ان قيمته مش هاتتبعت مع الريكويست
+        -->
+        <form action="" method="GET">
+            <div>
+                <label>Username</label>
+                <input type="text" name="username" value="Anas-Elgarhy" disabled>
+            </div>
+            <br>
+            <div>
+                <label>Password</label>
+                <input type="password" placeholder="New password" name="password">
+            </div>
+            <input type="submit" value="Save">
+            <!--
+                ولو استعملنا ديسابليد مع الازرار الزر هيبقا معطل
+            -->
+            <input type="reset" disabled>
+        </form>
+        <hr>
+
+        <!--
+            لو عاايز اليوزر اول ما يدخل الصفحة يبقا عامل فوكس(مفعل) حقل معين علشان يكتب علطول بستعمل خااصية اوتو فوكس
+            autofocus
+        -->
+        <form action="" method="GET">
+            <input type="text" placeholder="Username" name="username" autofocus>
+            <input type="password" placeholder="Password" name="password">
+            <br>
+            <input type="submit">
+        </form>
+        <hr>
+
+        <!--
+            لو عايز احدد اقل عدد لليوزر ممكن يكتبه في الحقل بستعمل خاصية مين لينس
+            minlength
+            ولو عايز احدد اكبر عدد من الحروف اليوزر ممكن يكتبه بستعمل خاصية ماكس لينس
+            maxlength
+        -->
+        <form action="" method="GET">
+            <input type="text" placeholder="Firstname" name="firstname" minlength="4">
+            <input type="text" placeholder="Lastname" name="lastname" minlength="4">
+            <br>
+            <input type="email" placeholder="Email" name="email">
+            <input type="password" placeholder="Password" name="password" minlength="10" maxlength="20">
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>

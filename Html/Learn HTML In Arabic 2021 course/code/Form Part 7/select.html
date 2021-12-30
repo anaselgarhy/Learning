@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Part 7 - Select And Textarea</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--
+            لو عايز اعمل قائمة مندسلة علشان اليوزر يختار منها خيار واحد بستعمل تاج
+            <select>
+            ولازم احط ليه اسم علشان القيمة اللي هاتتبعت
+            وعلشان اضيف الخيارات فير القائمة المندسلة بستعمل تاج
+            <option>
+            واللي لاوم اديلة قيمة علشان هيا اللي هاتتبعت مع اسم القائمة
+        -->
+        <form action="" method="GET">
+            <label for="lang">Chose Language</label>
+            <select name="lang" id="lang">
+                <option value="1">Html</option>
+                <option value="2">Css</option>
+                <option value="3">JavaScript</option>
+                <option value="4">C</option>
+                <option value="5">C++</option>
+                <option value="6">Java</option>
+            </select>
+            <br>
+            <input type="submit">
+        </form>
+        <hr>
+
+        <!--
+            ولو عايز اقسم الخيارات دي لمجموعات بستعمل تاج
+            <optgroup>
+            وعلشان اكتب اسم المجموعة بستعمل خاصية 
+            label
+        -->
+        <form action="" method="GET">
+            <label for="lang">Chose language</label>
+            <select name="lang" id="lang">
+                <optgroup label="Web">
+                    <option value="1">Html</option>
+                    <option value="2">Css</option>
+                    <option value="3">JavaScript</option>
+                </optgroup>
+                <optgroup label="Desktop apps">
+                    <option value="4">C</option>
+                    <option value="5">C++</option>
+                    <option value="6">Java</option>
+                </optgroup>
+            </select>
+            <br>
+            <input type="submit">
+        </form>
+        <hr>
+
+        <!--
+            ولو عايز اسمح لليوزر انو يختار اكتر من قيمة مع بعض بستعمل الخاصية
+            multiple
+            بس هنا مش بيبقي قائمة مندسلة وبيتعول للست وعلشان اختار اكتر من اوبشن بدوس كنترول واختار
+        -->
+        <form action="" method="GET">
+            <label for="lang">Chose language</label>
+            <select name="lang" id="lang" multiple>
+                <optgroup label="Web">
+                    <option value="1">Html</option>
+                    <option value="2">Css</option>
+                    <option value="3">JavaScript</option>
+                </optgroup>
+                <optgroup label="Desktop apps">
+                    <option value="4">C</option>
+                    <option value="5">C++</option>
+                    <option value="6">Java</option>
+                </optgroup>
+            </select>
+            <br>
+            <input type="submit">
+        </form>
+        <hr>
+
+        <!--
+            وفي القائمة المندسل اول عنصر بيبقا مختار بشكل تلقائي لاكن لو عايز احدد عنصر معين بستعمل خاصية
+            selected
+        -->
+        <form action="" method="GET">
+            <label for="lang">Chose language</label>
+            <select name="lang" id="lang">
+                <optgroup label="Web">
+                    <option value="1">Html</option>
+                    <option value="2">Css</option>
+                    <option value="3">JavaScript</option>
+                </optgroup>
+                <optgroup label="Desktop apps">
+                    <option value="4">C</option>
+                    <option value="5" selected>C++</option>
+                    <option value="6">Java</option>
+                </optgroup>
+            </select>
+            <br>
+            <input type="submit">
+        </form>
+        <hr>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/The works/CPP Projects/Barmej/Rectangle_Class/Rectangle.h
+iostream
+-
+
+D:/The works/CPP Projects/Barmej/Rectangle_Class/functions.cpp
+iostream
+-
+cstring
+-
+iomanip
+-
+functions.h
+D:/The works/CPP Projects/Barmej/Rectangle_Class/functions.h
+Rectangle.h
+D:/The works/CPP Projects/Barmej/Rectangle_Class/Rectangle.h
+
+D:/The works/CPP Projects/Barmej/Rectangle_Class/functions.h
+Rectangle.h
+D:/The works/CPP Projects/Barmej/Rectangle_Class/Rectangle.h
+
+D:/The works/CPP Projects/Barmej/Rectangle_Class/main.cpp
+Rectangle.h
+D:/The works/CPP Projects/Barmej/Rectangle_Class/Rectangle.h
+functions.h
+D:/The works/CPP Projects/Barmej/Rectangle_Class/functions.h
+

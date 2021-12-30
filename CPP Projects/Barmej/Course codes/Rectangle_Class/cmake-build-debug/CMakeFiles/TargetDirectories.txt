@@ -1,0 +1,3 @@
+D:/The works/CPP Projects/Barmej/Rectangle_Class/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/The works/CPP Projects/Barmej/Rectangle_Class/cmake-build-debug/CMakeFiles/Rectangle_Class.dir
+D:/The works/CPP Projects/Barmej/Rectangle_Class/cmake-build-debug/CMakeFiles/edit_cache.dir

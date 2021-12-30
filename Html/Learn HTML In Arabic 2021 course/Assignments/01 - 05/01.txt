@@ -1,0 +1,2 @@
+Q: ما الذي ترمز إليه كلمة HTML
+A: HTML = Hypertext Markup language

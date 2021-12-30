@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Table</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <!--
+            thead    => Table head
+            tbody    => Table body
+            tfoot    => Table footer
+            tr       => Table row
+            td       => Table data cell
+            th       => Table header cell (بستعملها علشان اميز خليا الهيدر لو عايز )
+        -->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Id</th>
+                <th>mark</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Anas</td>
+                <td>200987</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Mohamed</td>
+                <td>2000987</td>
+                <td>100</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total</td>
+            <td>200</td>
+        </tfoot>
+    </table>
+    <hr/>
+
+    <!--
+        مش لازم تقسم الجدول ، وممكن تحط الصفوف كدة علطول بس هانا الترتيب بيفرق
+    -->
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Id</td>
+            <td>mark</td>
+        </tr>
+
+        <tr>
+            <td>Anas</td>
+            <td>200987</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Mohamed</td>
+            <td>2000987</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Total</td>
+            <td>200</td>
+        </tr>
+    </table>
+    <hr/>
+
+    <!--
+        ممكن نخلي الخلية تاخد مكان اي عدد من الخلايا عن طريق خاصية
+        colspan
+
+    -->
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Id</td>
+            <td>mark</td>
+        </tr>
+
+        <tr>
+            <td>Anas</td>
+            <td>200987</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Mohamed</td>
+            <td>2000987</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td colspan="2">Total</td>
+            <td>200</td>
+        </tr>
+    </table>
+    <hr/>
+
+    <!--
+        بستعمل تاج
+        caption
+        علشان احط وصف او عنوان للجدول بتاعي
+    -->    
+    <table>
+        <caption>Marks table</caption>
+        <tr>
+            <td>Name</td>
+            <td>Id</td>
+            <td>mark</td>
+        </tr>
+
+        <tr>
+            <td>Anas</td>
+            <td>200987</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Mohamed</td>
+            <td>2000987</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td colspan="2">Total</td>
+            <td>200</td>
+        </tr>
+    </table>
+</body>
+
+</html>

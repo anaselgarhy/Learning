@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:text="العنوان"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:background="@drawable/header_text_shape"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_weight="1.6"/>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_launcher_background" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_weight="1.5">
+
+        <Button
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_gravity="end"
+                android:text="التالي"
+                android:background="@drawable/right_button_shape"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/button"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+        <Button
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                android:text="السابق"
+                android:background="@drawable/left_button_shape"
+
+                android:id="@+id/button2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

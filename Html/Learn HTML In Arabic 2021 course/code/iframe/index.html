@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inline Frame element &lt;iframe&gt;</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--
+            لو عايز اضمن صفحة ويب تاني جوا فريم بستعمل تاج
+            <iframe>
+            واللي ليه خاصيتين اساسيتان وهما
+            src        => عنوان الصفحة اللي عايز تضمنها
+            title      => وصف الصفحة
+            عنصر انلاين مش بلوك iframe وال 
+        -->
+        <iframe src="https://anas-elgarhy.github.io" title="My website"></iframe>
+        <hr>
+        <!--
+            وعلشان نظبط حجم الفريم ممكن نستعمل
+            height    => طول الفريم
+            width     => عرض الفريم
+        -->
+        <iframe src="https://anas-elgarhy.github.io" title="My website" width="900" height="600"></iframe>
+        <hr>
+        <!--
+            ممكن اخلي اي هايبر لينك يفتح في الفريم عن طريق اني اكتب اسم الفريم في الخاصية
+            target 
+            بتاعة الانكر     
+        -->
+        <iframe src="" name="frame" width="900" height="600"></iframe>
+        <br>
+        <a href="https://anas-elgarhy.github.io" target="frame">My website</a>
+        <br>
+        <a href="https://elzero.org" target="frame">Elzero website</a>
+    </body>
+</html>

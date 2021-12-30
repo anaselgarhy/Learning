@@ -1,0 +1,12 @@
+div {
+    background-color: red;
+    margin: 20px 0;
+}
+
+.div-1 {
+    display: none;
+}
+
+.div-2 {
+    visibility: hidden;
+}

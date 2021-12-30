@@ -1,0 +1,12 @@
+.div-1 {
+    background-color: red; /* Color Name */
+    background-color: rgb(255 0 0); /* Color value red green blue */
+    background-color: rgb(255 0 0 / .5); /* Color value red green blue alpha chanel */
+    background-color: #FF0000; /* Color hex value */
+}
+
+.div-2 {
+    background-image: url("../images/java-3.jpg");
+    background-repeat: repeat; /* Defualt value */
+    background-repeat: no-repeat;
+}

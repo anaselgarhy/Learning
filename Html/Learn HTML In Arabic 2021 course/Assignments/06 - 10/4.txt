@@ -1,0 +1,22 @@
+هل هذه العناصر سوف تظهر كلها بنفس الشكل أم لا ؟
+```HTML
+<p>Hello World</p>
+
+<p>
+Hello World
+</p>
+
+<p>
+Hello
+World
+</p>
+
+<p>
+Hello
+
+
+World
+</p>
+```
+
+A: Yes

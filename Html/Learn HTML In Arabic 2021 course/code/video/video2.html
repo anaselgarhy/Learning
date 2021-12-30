@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Video(video)</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--
+            ممكن اضيف الصورة اللي هاتظهر قبل ما الفديوو يشتغل واثناء تحميل الفديو عن طريق الخاصية
+            poster
+        -->
+        <video controls poster="./media/bbb-splash.png">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+            <source src="https://www.w3schools.com/html/mov_bbb.webm" type="video/webm">
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+        <hr/>
+
+        <!--
+            وممكن اتحكم في طول وعرض مشغل الفديو عن طريق الخاصيتين
+            height, width
+            بس يستحسن ما اعدلش الطول علشان احافظ علي ابعاد المشغل
+            ولما نتعلم السي اس اس مش هانحتاجهم لاننا هانعملم بيها
+        -->
+        <video controls width="400" height="300" poster="./media/bbb-splash.png">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+            <source src="https://www.w3schools.com/html/mov_bbb.webm" type="video/webm">
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+        <hr/>
+
+        <!--
+            ممكن اضيف الترجمة بتاعة الفدبو او الوصف او البيانات الوصفية اوالفصول
+            <track> عن طريق تاج
+            واللي بياخد اربع خصائص في حالة الترجمة
+            src: وده مسار ملف الترجمة
+            kind: وده نوع التراك وفي حالة الترجمة بنخليه سب تايتلس
+            srclang: وده لغة الملف اللي حاطينة للترجمة
+            label: وده النص اللي هايظهر للمستخدم وهوا بيختار الترجمة
+        -->
+        <video controls width="400" poster="./media/bbb-splash.png">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+            <source src="https://www.w3schools.com/html/mov_bbb.webm" type="video/webm">
+            Sorry, your browser doesn't support embedded videos.
+            <track src="ubtitles_en.vtt" kind="subtitles" srclang="en" label="Englsh">
+            <track src="ubtitles_ar.vtt" kind="subtitles" srclang="ar" label="Arabic">
+        </video>
+        <hr/>
+    </body>
+</html>

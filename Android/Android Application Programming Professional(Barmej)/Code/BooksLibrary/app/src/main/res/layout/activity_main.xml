@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <View
+            android:id="@+id/divider2"
+            android:layout_width="409dp"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintStart_toEndOf="@+id/guideline3"
+            app:layout_constraintEnd_toEndOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintTop_toBottomOf="@+id/floatingActionButton"
+            android:layout_marginTop="16dp" />
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_baseline_bookmark_24"
+            android:id="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:tint="#E91E63" />
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:srcCompat="@drawable/header"
+            android:id="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintDimensionRatio="2:1"
+            android:scaleType="centerCrop" />
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guideline2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guideline3"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04622871" />
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/cover"
+            android:id="@+id/imageView2"
+            app:layout_constraintStart_toEndOf="@+id/guideline3"
+            android:layout_marginTop="31dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintDimensionRatio="w,240:335" />
+
+    <TextView
+            android:text="نماذج من تراجم علماء المسلمين"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintEnd_toStartOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:textStyle="bold" />
+
+    <TextView
+            android:text="ربيع عبدالرؤوف الزواوي"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+            android:text="buy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toStartOf="@+id/button2"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white" />
+
+    <Button
+            android:text="Borrow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintStart_toEndOf="@+id/button"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            android:layout_marginStart="8dp"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white" />
+
+    <View
+            android:id="@+id/divider"
+            android:layout_width="409dp"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintStart_toEndOf="@+id/guideline3"
+            app:layout_constraintEnd_toEndOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="0.575"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_baseline_rate_review_24"
+            android:id="@+id/floatingActionButton4"
+            app:layout_constraintTop_toTopOf="@+id/floatingActionButton3"
+            app:layout_constraintStart_toEndOf="@+id/floatingActionButton2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            android:backgroundTint="#E91E63"
+            android:tint="#FFFFFF" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_baseline_star_24"
+            android:id="@+id/floatingActionButton"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toStartOf="@+id/floatingActionButton3"
+            android:backgroundTint="#E91E63"
+            android:tint="#FFFFFF"
+            app:layout_constraintTop_toBottomOf="@+id/divider"
+            android:layout_marginTop="16dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_baseline_book_24"
+            android:id="@+id/floatingActionButton3"
+            app:layout_constraintTop_toTopOf="@+id/floatingActionButton2"
+            app:layout_constraintStart_toEndOf="@+id/floatingActionButton"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toStartOf="@+id/floatingActionButton2"
+            android:backgroundTint="#E91E63"
+            android:tint="#FFFFFF" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_baseline_restore_24"
+            android:id="@+id/floatingActionButton2"
+            app:layout_constraintTop_toTopOf="@+id/floatingActionButton"
+            app:layout_constraintStart_toEndOf="@+id/floatingActionButton3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toStartOf="@+id/floatingActionButton4"
+            android:backgroundTint="#E91E63"
+            android:tint="#FFFFFF" />
+
+    <androidx.constraintlayout.widget.Barrier
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/barrier2"
+            app:barrierDirection="bottom"
+            app:constraint_referenced_ids="floatingActionButton4,floatingActionButton,floatingActionButton2,floatingActionButton3"
+            tools:layout_editor_absoluteY="731dp" />
+
+    <TextView
+            android:text="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق. هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً."
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            app:layout_constraintStart_toEndOf="@+id/guideline3"
+            app:layout_constraintEnd_toEndOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/divider2"
+            android:padding="8dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

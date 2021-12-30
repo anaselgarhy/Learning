@@ -1,0 +1,6 @@
+#ifndef MYHEADER_H_INCLUDED
+#define MYHEADER_H_INCLUDED
+
+int a=5;
+
+#endif // MYHEADER_H_INCLUDED

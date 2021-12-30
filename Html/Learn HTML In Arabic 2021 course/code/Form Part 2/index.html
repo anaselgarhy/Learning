@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Part 2 - Required, Placeholder, Value</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--
+            في بعض حقول الادخال بنحتاج نجبر اليوزر انو يملاها علشان مهمة بالنسبة لينا
+            وبنعمل كدة بأستعمال خاصية
+            required
+        -->
+        <form>
+            <div>
+                <label>Username</label>
+                <input type="text" required>
+            </div>
+            <br/>
+            <div>
+                <label>Password</label>
+                <input type="password" required>
+            </div>
+            <input type="submit">
+        </form>
+        <hr/>
+
+        <!--
+            وفي بعض الاحيان التصميم بيجبرنا اننا ما نستعملش الليبلز او نكون عايزين نكتب تلميح جوا حقل الادخل
+            ويتمسح اول ما اليوزر يبدأ يكتب وعلشان نعمل كدة بنستعمل خاصية
+            placeholder
+        -->
+        <form>
+            <input type="text" required placeholder="Username">
+            <br/>
+            <input type="password" required placeholder="Password">
+            <br/>
+            <input type="submit">
+        </form>
+        <hr/>
+
+        <!--
+            لو عايزين ندي للحقول قيم افتراضية تبقا مكتوبة فيهاتلقائيا اول ما الصفة تحمل 
+            بنستعمل خاصية فاليو
+            value
+        -->
+        <form>
+            <input type="text" required placeholder="Username" value="Anas-Elgarhy">
+            <br/>
+            <!--
+                ولو عايزين نخلي حقل الدخال يستلم ايميل ويتأكد انو ميل صالح بنستخدم القيمة
+                email
+                للخاصية تايب
+            -->
+            <input type="email" required placeholder="Email" value="anas@mail.me">
+            <br/>
+            <input type="password" required placeholder="Password">
+            <br/>
+
+            <!--  
+            وممكن نستعمل فاليو علشان نفير قيمة زر الارسال من
+            submit
+            لاي قيمة تاني
+            -->
+            <input type="submit" value="Save">
+        </form>
+    </body>
+</html>

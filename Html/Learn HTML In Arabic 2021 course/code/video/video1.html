@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Video(video)</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--
+            لو عايز احط فديو في الصفحة بستعمل تاج
+            video
+            وبحط مسار الفديو في الخاصية
+            src
+        -->
+        <video src="https://www.w3schools.com/html/mov_bbb.mp4"></video>
+        <hr/>
+
+        <!--
+            وبستعمل الخاصية كنترولس علشان نظهر عناصر التحكم بالفديو
+            controls
+        -->
+        <video src="https://www.w3schools.com/html/mov_bbb.mp4" controls></video>
+        <hr/>
+
+        <!--
+            بس طبعا زي الصوت مش كل المتصفحات بتدعم نفس الصيغة، وبحل المشكلة دي عن طريق اني احط كذا صيغة للملف
+            واللي ليه خاصيتين اساسيتين وهما <source> ونستعمل التاج
+            src: مسار الملف الصوتي
+            type: mime typeنوع الملف وبنكتبة بصيغة ال
+            وهنا بنقدر نحط اكتر من ملف لنفس المعلوة بس بصيغ مختلفة والمتصفح بيشغل الصية اللي بيدعها
+        -->
+        <video controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+            <source src="https://www.w3schools.com/html/mov_bbb.webm" type="video/webm">
+        </video>
+        <hr/>
+
+        <!--
+            ومع ذالك لسة في متصفحات عايشة في العصر الحجري ومش بتدعم الفديو تاج فا يستحسن نحط عبارة تقول للمستخدم كدة علشان
+            ما يفتكرش ان العيب من الموقع
+        -->
+        <video controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+            <source src="https://www.w3schools.com/html/mov_bbb.webm" type="video/webm">
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+        <hr/>
+
+        <!--
+            وممكن استعمل خاصية
+            autoplay
+            علشان اخلي الفديو يشتغل تلقائيا اول ما الصفحة تفتح، بس الخاصية دي معمول ليها بلوك حاليا في كروم
+            هوا مش بلوك نهائي بس علشان يمنعو الاسبام فا الملف بيشتغل اول ما تفتح الصفحة عادي اوتو لاكن لو عملت ريفريش مش هايشتغل
+        -->
+        <video controls autoplay>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+            <source src="https://www.w3schools.com/html/mov_bbb.webm" type="video/webm">
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+        <hr/>
+
+        <!--
+            وممكن استعمل الخاصية لوب
+            loop
+            علشان اخلي الفديو يتكرر
+        -->
+        <video controls loop>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+            <source src="https://www.w3schools.com/html/mov_bbb.webm" type="video/webm">
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+        <hr/>
+
+        <!--
+            وممكن استعمل الخاصية ميوتد
+            muted
+            علشان اخلي الفديو صامت افترضيا
+            ويستحسن دايما استعمل الخاصية دي مع الاتو بلاي(التشغيل التلقائي)علشان اليوزر ما يتفاجئش لو كان الصوت عالي
+            وملحوظة لو خليت الفديو ميوت جوجل هايسمح انو يشتغل تلقائيا مهما اليوزر عمل ريفريش
+        -->
+        <video controls loop muted>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+            <source src="https://www.w3schools.com/html/mov_bbb.webm" type="video/webm">
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+        <hr/>
+
+        <!-- لحد دلوقتي ودي كلها حاجات عادية شوفنها في الصوت -->
+        <!-- الكود اللي بعد ده هوا اللي فيه الحاجات المميزة للفديو -->
+    </body>
+</html>

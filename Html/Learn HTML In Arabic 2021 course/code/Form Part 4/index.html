@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Part 4 - Hidden, Reset, Color, Range, Number</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--
+            لو عايز ابعت حاجة معينة مع البيانت بس مش محتاجها من اليوزر ذي الاي بي مثلا بستعمل نوع هيدن
+            type="hidden"
+        -->
+        <form action="" method="GET">
+            <input type="hidden" name="ip" value="198.165.87.8">
+            <input type="text" placeholder="Username" name="username">
+            <br>
+            <input type="submit">
+        </form>
+        <hr>
+
+        <!--
+            ولو عايز ادي امكانية لليوزر انو يمسح كل القيم اللي دخلها وكل حاجة ترجع للقيم اللافتراضية بستعمل
+            انبوت من نوع ريست
+            type="reset"
+        -->
+        <form action="" method="POST" method="GET">
+            <input type="text" placeholder="Username" name="username">
+            <br>
+            <input type="email" placeholder="Email" name="email" value="anos@anas.com">
+            <br>
+            <input type="password" placeholder="Password" name="password">
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+        <hr>
+
+        <!--
+            ولو عايز اضيف كولور بيكير للفورم بحيث اني اسمح لليوزر انو يختار لون بستعمل
+            type="color"
+            ولما اليوزر بيعت الداتا القيما بتتبعت بالهيكس كود
+        -->
+        <form action="" method="GET">
+            <label>Color</label>
+            <input type="color" name="color">
+            <br>
+            <input type="submit">
+        </form>
+        <hr>
+
+        <!--
+            ولو عايز اضيف اسلايدر للفورم بستعمل النوع رينج
+            type="range"
+            واللي ليه 3 خصائص اساسية هما
+            min      => ودي اقل قيمة ممكن الاسليدر يوصل ليها ولو ما كتبتهاش القيمة الافتراضية هاتبقا 0
+            max      => ودي اقصي قيمة ممكن الاسلايدر يوصل ليها ولو ما كتبتهاش القيمة الافتراضية بتبقا 100
+            step     => ودي الخطوة ولو ما كتبتهاش القيمة الفتراضية بتبقا 1
+            ولو ما حددناش القيمة بالخاصية فاليو الاسلايدر بيبقا واقف في النص باي ديفلت
+        -->
+        <form action="" method="GET">
+            <label>Salary</label>
+            <input type="range" min="0" max="100" value="10" name="salary">
+            <br>
+            <label>age</label>
+            <input type="range" min="0" max="100" step="10" name="age">
+            <br>
+            <label>Page</label>
+            <input type="range" name="page">
+            <br>
+            <input type="submit">
+        </form>
+        <hr>
+
+        <!--
+            ولو عايز اليوزر يختار رقم او يكتب رقم بس بستخدم النوع نمبر
+            type="number"
+            واللي ليه 3 خصائص اساسية وهما
+            min      => ودي اقل قيمة ممكن الاسليدر يوصل ليها ولو ما كتبتهاش القيمة الافتراضية هاتبقا سالب ملا نهاية
+            max      => ودي اقصي قيمة ممكن الاسلايدر يوصل ليها ولو ما كتبتهاش القيمة الافتراضية بتبقا موجب مللا نهاية
+            step     => ودي الخطوة ولو ما كتبتهاش القيمة الفتراضية بتبقا 1
+            ولو ما حددناش القيمة بالخاصية فاليو القيمة بتبقا فراغ
+            null
+        -->
+        <form action="" method="GET">
+            <label>Number</label>
+            <input type="number" min="0" max="1000" name="number" value="20">
+            <br>
+            <label>Age</label>
+            <input type="number" min="0" max="125" step="9" name="age">
+            <br>
+            <label>Pages</label>
+            <input type="number" name="pages" value="20">
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>

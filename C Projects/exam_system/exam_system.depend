@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1618059459 source:d:\the works\c projects\exam_system\exam.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"functions.h"
+
+1617550805 d:\the works\c projects\exam_system\functions.h
+

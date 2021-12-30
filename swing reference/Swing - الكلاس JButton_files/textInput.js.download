@@ -1,0 +1,81 @@
+//PASTE in TEXT HERE BETWEEN THE QUOTES
+var line1_1 = "Register for the";
+var line1_2 = "Level I CFA<sup>&reg;</sup> exam.";
+var line1_3 = "";
+var line1_4 = "";
+
+var line2_1 = "February exam early";
+var line2_2 = "registration ends August 10.";
+var line2_3 = "";
+var line2_4 = "";
+
+//SET TXT1 SIZE:	
+var txt1Size = 22;
+
+//SET TXT2 SIZE:
+var txt2Size = 22;
+
+//PASTE in CTA TEXT HERE BETWEEN THE QUOTES
+var ctaText = "Register Now";
+
+//CTA Left Position
+var ctaLeft = 610;
+
+//CTA Vertical Position
+var ctaTop = 48;
+
+//SET CTA TXT SIZE:
+var ctaSize = 12;
+
+//LOGO LEFT POSITION
+var logoLeft = 427;
+
+//LOGO VERTICAL POSITION
+var logoTop = 27;
+
+//TXT1 VERTICAL POSITION
+var txt1Top = 18;
+
+//TXT2 VERTICAL POSITION
+var txt2Top = 18;
+
+//LEGAL LEFT POSITION
+var legalLeft = 568;
+
+//PASTE in LEGAL TEXT HERE BETWEEN THE QUOTES
+var legalText = "";
+
+// &copy; 2021 CFA Institute. All rights reserved.
+
+//ACCENT COLOR 
+//green
+//orange
+//blue
+//navy-blue
+//white
+var accentColor = "orange";
+
+// CTA ACCENT COLOR 
+//green  76bc21
+//orange ffa400
+//blue 00b3e3
+//navy-blue 003da5
+var ctaAccentColor = "#ffa400";
+
+//BG COLOR
+var bgColor = "#5949a7";
+
+//IF A LOGO WITH A WIDER LOOK LIKE SOCIETY UK, SET TO: true
+var logoWider = false;
+
+//MAIN-IMG SET WIDTH AND POSITION
+var mainImgWidth = 728; //css width
+var mainImgTop = 0; //css top
+var mainImgLeft = 0; //css left
+
+
+//IF NEED TO SUPERSCRIPT HERE ARE OPTIONS BELOW, PLEASE NOTE SINGLE QUOTES USED FOR CLASS
+// regular r mark <sup>&reg;</sup>
+// regular tm mark <sup>&trade;</sup>
+// period-tuck r mark <sup class='period-tuck'>&reg;</sup>
+// period-tuck tm mark <sup class='period-tuck'>&trade;</sup>

@@ -1,0 +1,20 @@
+div {
+    width: 70%;
+    margin: 20px auto; /* 20px auto 20px auto */
+    background-color: #DDD;
+}
+
+.div-1 {
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+}
+
+.div-2 {
+    border-width: 10px 20px; /* 10px 20px 10px 20px */
+    border-style: dashed dotted; /* dashed dotted dashed dotted */
+    border-color: yellow green red #6b55e9;
+}
+.div-3 {
+    border: 10px solid red;
+}

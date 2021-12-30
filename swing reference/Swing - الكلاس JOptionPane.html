@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://harmash.com/swing/swing-joptionpane/ -->
+<html lang="ar" slick-uniqueid="3"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Google Analytics -->
+    <script src="./Swing - الكلاس JOptionPane_files/osd.js.download"></script><script src="./Swing - الكلاس JOptionPane_files/f(4).txt"></script><script src="./Swing - الكلاس JOptionPane_files/f(5).txt" id="google_shimpl"></script><script async="" src="./Swing - الكلاس JOptionPane_files/async-ads.js.download"></script><script type="text/javascript" async="" src="./Swing - الكلاس JOptionPane_files/f(6).txt"></script><script type="text/javascript" async="" src="./Swing - الكلاس JOptionPane_files/analytics.js.download"></script><script async="" src="./Swing - الكلاس JOptionPane_files/js"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-66898688-2');
+    </script>
+
+    <!-- web style -->
+    <link rel="icon" type="image/x-icon" href="https://harmash.com/template/images/harmash_x.PNG">
+    <link rel="stylesheet" type="text/css" href="./Swing - الكلاس JOptionPane_files/style-2020-43.min.css">
+    <link rel="stylesheet" type="text/css" href="./Swing - الكلاس JOptionPane_files/hsoub-2020-9.min.css">
+
+    <!-- jquery -->
+    <script src="./Swing - الكلاس JOptionPane_files/jquery.min.js.download"></script>
+
+    <!-- web scripts -->
+    <script src="./Swing - الكلاس JOptionPane_files/screen-adjustment-2020-34.min.js.download"></script>
+
+    <!-- Include EnlighterJS Styles + MooTools + Initialize EnlighterJS  -->
+    <link rel="stylesheet" type="text/css" href="./Swing - الكلاس JOptionPane_files/EnlighterJS.min.css">
+    <meta name="EnlighterJS" content="Advanced javascript based syntax highlighting" data-indent="4" data-selector-block="pre" data-selector-inline="code" data-theme="Enlighter">
+
+    <title>Swing - الكلاس JOptionPane</title>
+<script src="./Swing - الكلاس JOptionPane_files/cse_element__ar.js.download" type="text/javascript"></script><link type="text/css" rel="stylesheet" href="./Swing - الكلاس JOptionPane_files/default+ar.css"><link type="text/css" rel="stylesheet" href="./Swing - الكلاس JOptionPane_files/minimalist.css"><style type="text/css">.gsc-control-cse{font-family:arial, sans-serif}.gsc-control-cse .gsc-table-result{font-family:arial, sans-serif}.gsc-refinementsGradient{background:linear-gradient(to right,rgba(119,119,119,1),rgba(119,119,119,0))}.gsc-control-cse{border-color:#FFFFFF;background-color:#FFFFFF}input.gsc-input,.gsc-input-box,.gsc-input-box-hover,.gsc-input-box-focus{border-color:#666666}.gsc-search-button-v2,.gsc-search-button-v2:hover,.gsc-search-button-v2:focus{border-color:#444444;background-color:#666666;background-image:none;filter:none}.gsc-search-button-v2 svg{fill:#FFFFFF}.gsc-tabHeader.gsc-tabhActive,.gsc-refinementHeader.gsc-refinementhActive{color:#FFFFFF;border-color:#FFFFFF;background-color:#333333}.gsc-tabHeader.gsc-tabhInactive,.gsc-refinementHeader.gsc-refinementhInactive{color:#FFFFFF;border-color:#FFFFFF;background-color:#777777}.gsc-webResult.gsc-result,.gsc-results .gsc-imageResult{border-color:#FFFFFF;background-color:#FFFFFF}.gsc-webResult.gsc-result:hover{border-color:#FFFFFF;background-color:#F1F1F1}.gs-webResult.gs-result a.gs-title:link,.gs-webResult.gs-result a.gs-title:link b,.gs-imageResult a.gs-title:link,.gs-imageResult a.gs-title:link b{color:#0000FF}.gs-webResult.gs-result a.gs-title:visited,.gs-webResult.gs-result a.gs-title:visited b,.gs-imageResult a.gs-title:visited,.gs-imageResult a.gs-title:visited b{color:#9900FF}.gs-webResult.gs-result a.gs-title:hover,.gs-webResult.gs-result a.gs-title:hover b,.gs-imageResult a.gs-title:hover,.gs-imageResult a.gs-title:hover b{color:#0000FF}.gs-webResult.gs-result a.gs-title:active,.gs-webResult.gs-result a.gs-title:active b,.gs-imageResult a.gs-title:active,.gs-imageResult a.gs-title:active b{color:#9900FF}.gsc-cursor-page{color:#0000FF}a.gsc-trailing-more-results:link{color:#0000FF}.gs-webResult:not(.gs-no-results-result):not(.gs-error-result) .gs-snippet,.gs-fileFormatType{color:#333333}.gs-webResult div.gs-visibleUrl{color:#088A08}.gs-webResult div.gs-visibleUrl-short{color:#088A08}.gsc-cursor-box{border-color:#FFFFFF}.gsc-results .gsc-cursor-box .gsc-cursor-page{border-color:#FFFFFF;background-color:#777777;color:#FFFFFF}.gsc-results .gsc-cursor-box .gsc-cursor-current-page{border-color:#FFFFFF;background-color:#333333;color:#FFFFFF}.gsc-webResult.gsc-result.gsc-promotion{border-color:#CCCCCC;background-color:#E6E6E6}.gsc-completion-title{color:#0000FF}.gsc-completion-snippet{color:#333333}.gs-promotion a.gs-title:link,.gs-promotion a.gs-title:link *,.gs-promotion .gs-snippet a:link{color:#0000CC}.gs-promotion a.gs-title:visited,.gs-promotion a.gs-title:visited *,.gs-promotion .gs-snippet a:visited{color:#0000CC}.gs-promotion a.gs-title:hover,.gs-promotion a.gs-title:hover *,.gs-promotion .gs-snippet a:hover{color:#444444}.gs-promotion a.gs-title:active,.gs-promotion a.gs-title:active *,.gs-promotion .gs-snippet a:active{color:#00CC00}.gs-promotion .gs-snippet,.gs-promotion .gs-title .gs-promotion-title-right,.gs-promotion .gs-title .gs-promotion-title-right *{color:#333333}.gs-promotion .gs-visibleUrl,.gs-promotion .gs-visibleUrl-short{color:#00CC00}.gcsc-find-more-on-google{color:#0000FF}.gcsc-find-more-on-google-magnifier{fill:#0000FF}</style><style type="text/css">.gscb_a{display:inline-block;font:27px/13px arial,sans-serif}.gsst_a .gscb_a{color:#a1b9ed;cursor:pointer}.gsst_a:hover .gscb_a,.gsst_a:focus .gscb_a{color:#36c}.gsst_a{display:inline-block}.gsst_a{cursor:pointer;padding:0 4px}.gsst_a:hover{text-decoration:none!important}.gsst_b{font-size:16px;padding:0 2px;position:relative;user-select:none;-webkit-user-select:none;white-space:nowrap}.gsst_e{vertical-align:middle;opacity:0.55;}.gsst_a:hover .gsst_e,.gsst_a:focus .gsst_e{opacity:0.72;}.gsst_a:active .gsst_e{opacity:1;}.gsst_f{background:white;text-align:left}.gsst_g{background-color:white;border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);margin:-1px -3px;padding:0 6px}.gsst_h{background-color:white;height:1px;margin-bottom:-1px;position:relative;top:-1px}.gsib_a{width:100%;padding:4px 6px 0}.gsib_a,.gsib_b{vertical-align:top}.gssb_c{border:0;position:absolute;z-index:989}.gssb_e{border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);cursor:default}.gssb_f{visibility:hidden;white-space:nowrap}.gssb_k{border:0;display:block;position:absolute;top:0;z-index:988}.gsdd_a{border:none!important}.gsq_a{padding:0}.gssb_a{padding:0 7px}.gssb_a,.gssb_a td{white-space:nowrap;overflow:hidden;line-height:22px}#gssb_b{font-size:11px;color:#36c;text-decoration:none}#gssb_b:hover{font-size:11px;color:#36c;text-decoration:underline}.gssb_g{text-align:center;padding:8px 0 7px;position:relative}.gssb_h{font-size:15px;height:28px;margin:0.2em;-webkit-appearance:button}.gssb_i{background:#eee}.gss_ifl{visibility:hidden;padding-left:5px}.gssb_i .gss_ifl{visibility:visible}a.gssb_j{font-size:13px;color:#36c;text-decoration:none;line-height:100%}a.gssb_j:hover{text-decoration:underline}.gssb_l{height:1px;background-color:#e5e5e5}.gssb_m{color:#000;background:#fff}.gssb_a{padding:0 9px}.gsib_a{padding:5px 9px 4px 9px}.gscb_a{line-height:27px}.gssb_e{border:0}.gssb_l{margin:5px 0}input.gsc-input::-webkit-input-placeholder{font-size:14px}input.gsc-input:-moz-placeholder{font-size:14px}input.gsc-input::-moz-placeholder{font-size:14px}input.gsc-input:-ms-input-placeholder{font-size:14px}input.gsc-input:focus::-webkit-input-placeholder{color:transparent}input.gsc-input:focus:-moz-placeholder{color:transparent}input.gsc-input:focus::-moz-placeholder{color:transparent}input.gsc-input:focus:-ms-input-placeholder{color:transparent}.gssb_c .gsc-completion-container{position:static}.gssb_c{z-index:5000}.gsc-completion-container table{background:transparent;font-size:inherit;font-family:inherit}.gssb_c > tbody > tr,.gssb_c > tbody > tr > td,.gssb_d,.gssb_d > tbody > tr,.gssb_d > tbody > tr > td,.gssb_e,.gssb_e > tbody > tr,.gssb_e > tbody > tr > td{padding:0;margin:0;border:0}.gssb_a table,.gssb_a table tr,.gssb_a table tr td{padding:0;margin:0;border:0}</style><meta http-equiv="origin-trial" content="A88otRz1Fd3Nt567e2IYshC18LL3KGVXpVJW9oTCId4RYaygt23pbb4JqrbdIO/bwZPWEmRjBIRBu/bZbDR7Pg4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MzQwODMxOTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="A0gCLbXCcL0R1Oc8tFPDs0G4Elz17w3zHp+Zst66+D17veE2o7fUcPsA114QtSTRqfVJLMeTSdeWOom0CcyCsgYAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MzQwODMxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A9RQ+LxFazAousxUwSCzaihJjHLO1UyjQp0teZKHl7WdbVjPDfHSKMd6D/ZI5MTjqClFycbl70EFd7cBJWXqKQEAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MzQwODMxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A6WKeWsdn1Ct+ZPqS9NCxxaiBoQ7wdTkK2/gE69Yu0gfBKJfo1gOvgkGmf5/xaIajT/RUb9AbnF1FsSZ47cCcQcAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MzQwODMxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A04ZCu7yjrHgwQJK5ISHhH1DSg0qqowEay3n70KO6wV3D2Mj+OX3Kw20aSMitzgdG1xfrN7sOJV/dZIk+RvCzA4AAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjM0MDgzMTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A2YAd4xOntTGygIDjApOTtXOgVI3IWsd5OnOGq3RbRkIQwyqYWNl1JGRAcvtm6VOHDj4n07T/J19VqLuJn3MmQ8AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjMxNjYzOTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A2c5Ux+hivdkLh/KbZUGr6f7SCR0mZrBVfPJ+/OuDVHNwiYv+Lo83b9z5qL8sod78bQl0pSLtbvRWURo+xRl7AIAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjMxNjYzOTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="AzNJ4sd3tVurolpdvWYZ4cmP9Po7RJhEHSqmC3pgxW9fFVZvchhtcMUgHAs97npxMD1jhXHO8s6q6Wy1MMLxKgEAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjMxNjYzOTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="AwfG8hAcHnPa/kJ1Co0EvG/K0F9l1s2JZGiDLt2mhC3QI5Fh4qmsmSwrWObZFbRC9ieDaSLU6lHRxhGUF/i9sgoAAACBeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AwQ7dCmHkvR6FuOFxAuNnktYSQrGbL4dF+eBkrwNLALc69Wr//PnO1yzns3pjUoCaYbKHtVcnng2hU+8OUm0PAYAAACHeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AysVDPGQTLD/Scn78x4mLwB1tMfje5jwUpAAzGRpWsr1NzoN7MTFhT3ClmImi2svDZA7V6nWGIV8YTPsSRTe0wYAAACHeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A88otRz1Fd3Nt567e2IYshC18LL3KGVXpVJW9oTCId4RYaygt23pbb4JqrbdIO/bwZPWEmRjBIRBu/bZbDR7Pg4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MzQwODMxOTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="A0gCLbXCcL0R1Oc8tFPDs0G4Elz17w3zHp+Zst66+D17veE2o7fUcPsA114QtSTRqfVJLMeTSdeWOom0CcyCsgYAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MzQwODMxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A9RQ+LxFazAousxUwSCzaihJjHLO1UyjQp0teZKHl7WdbVjPDfHSKMd6D/ZI5MTjqClFycbl70EFd7cBJWXqKQEAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MzQwODMxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A6WKeWsdn1Ct+ZPqS9NCxxaiBoQ7wdTkK2/gE69Yu0gfBKJfo1gOvgkGmf5/xaIajT/RUb9AbnF1FsSZ47cCcQcAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MzQwODMxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A04ZCu7yjrHgwQJK5ISHhH1DSg0qqowEay3n70KO6wV3D2Mj+OX3Kw20aSMitzgdG1xfrN7sOJV/dZIk+RvCzA4AAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjM0MDgzMTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A2YAd4xOntTGygIDjApOTtXOgVI3IWsd5OnOGq3RbRkIQwyqYWNl1JGRAcvtm6VOHDj4n07T/J19VqLuJn3MmQ8AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjMxNjYzOTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A2c5Ux+hivdkLh/KbZUGr6f7SCR0mZrBVfPJ+/OuDVHNwiYv+Lo83b9z5qL8sod78bQl0pSLtbvRWURo+xRl7AIAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjMxNjYzOTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="AzNJ4sd3tVurolpdvWYZ4cmP9Po7RJhEHSqmC3pgxW9fFVZvchhtcMUgHAs97npxMD1jhXHO8s6q6Wy1MMLxKgEAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjMxNjYzOTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="AwfG8hAcHnPa/kJ1Co0EvG/K0F9l1s2JZGiDLt2mhC3QI5Fh4qmsmSwrWObZFbRC9ieDaSLU6lHRxhGUF/i9sgoAAACBeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AwQ7dCmHkvR6FuOFxAuNnktYSQrGbL4dF+eBkrwNLALc69Wr//PnO1yzns3pjUoCaYbKHtVcnng2hU+8OUm0PAYAAACHeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AysVDPGQTLD/Scn78x4mLwB1tMfje5jwUpAAzGRpWsr1NzoN7MTFhT3ClmImi2svDZA7V6nWGIV8YTPsSRTe0wYAAACHeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A88otRz1Fd3Nt567e2IYshC18LL3KGVXpVJW9oTCId4RYaygt23pbb4JqrbdIO/bwZPWEmRjBIRBu/bZbDR7Pg4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MzQwODMxOTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="A0gCLbXCcL0R1Oc8tFPDs0G4Elz17w3zHp+Zst66+D17veE2o7fUcPsA114QtSTRqfVJLMeTSdeWOom0CcyCsgYAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MzQwODMxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A9RQ+LxFazAousxUwSCzaihJjHLO1UyjQp0teZKHl7WdbVjPDfHSKMd6D/ZI5MTjqClFycbl70EFd7cBJWXqKQEAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MzQwODMxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A6WKeWsdn1Ct+ZPqS9NCxxaiBoQ7wdTkK2/gE69Yu0gfBKJfo1gOvgkGmf5/xaIajT/RUb9AbnF1FsSZ47cCcQcAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MzQwODMxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A04ZCu7yjrHgwQJK5ISHhH1DSg0qqowEay3n70KO6wV3D2Mj+OX3Kw20aSMitzgdG1xfrN7sOJV/dZIk+RvCzA4AAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjM0MDgzMTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A2YAd4xOntTGygIDjApOTtXOgVI3IWsd5OnOGq3RbRkIQwyqYWNl1JGRAcvtm6VOHDj4n07T/J19VqLuJn3MmQ8AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjMxNjYzOTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A2c5Ux+hivdkLh/KbZUGr6f7SCR0mZrBVfPJ+/OuDVHNwiYv+Lo83b9z5qL8sod78bQl0pSLtbvRWURo+xRl7AIAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjMxNjYzOTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="AzNJ4sd3tVurolpdvWYZ4cmP9Po7RJhEHSqmC3pgxW9fFVZvchhtcMUgHAs97npxMD1jhXHO8s6q6Wy1MMLxKgEAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjMxNjYzOTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="AwfG8hAcHnPa/kJ1Co0EvG/K0F9l1s2JZGiDLt2mhC3QI5Fh4qmsmSwrWObZFbRC9ieDaSLU6lHRxhGUF/i9sgoAAACBeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AwQ7dCmHkvR6FuOFxAuNnktYSQrGbL4dF+eBkrwNLALc69Wr//PnO1yzns3pjUoCaYbKHtVcnng2hU+8OUm0PAYAAACHeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AysVDPGQTLD/Scn78x4mLwB1tMfje5jwUpAAzGRpWsr1NzoN7MTFhT3ClmImi2svDZA7V6nWGIV8YTPsSRTe0wYAAACHeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><link rel="preload" href="./Swing - الكلاس JOptionPane_files/f(7).txt" as="script"><script type="text/javascript" src="./Swing - الكلاس JOptionPane_files/f(7).txt"></script><link rel="preload" href="./Swing - الكلاس JOptionPane_files/f(8).txt" as="script"><script type="text/javascript" src="./Swing - الكلاس JOptionPane_files/f(8).txt"></script><link rel="preload" href="./Swing - الكلاس JOptionPane_files/f(7).txt" as="script"><script type="text/javascript" src="./Swing - الكلاس JOptionPane_files/f(7).txt"></script><link rel="preload" href="./Swing - الكلاس JOptionPane_files/f(8).txt" as="script"><script type="text/javascript" src="./Swing - الكلاس JOptionPane_files/f(8).txt"></script></head>
+
+<body data-new-gr-c-s-check-loaded="14.1026.0" data-gr-ext-installed="">
+    <div id="header">
+        <ul>
+            <li id="menu" style="display: block; padding: 0px 13px; width: auto;"><img src="./Swing - الكلاس JOptionPane_files/ic_menu.PNG"></li>
+            <li id="library" style="display: block; padding: 0px 13px; width: auto;">المكتبة ▾</li>
+            <li id="search" style="display: block; padding: 0px 13px; width: auto;"><img src="./Swing - الكلاس JOptionPane_files/ic_search.PNG"></li>
+            <li id="blog" style="display: block; padding: 0px 13px; width: auto;"><a href="https://harmash.com/blog">مقالات</a></li>
+            <li id="home" style="display: none; padding: 0px 13px; width: auto;"><a href="http://harmash.com/"><img src="./Swing - الكلاس JOptionPane_files/ic_home.PNG"></a></li>
+            <li id="logo" style="float: left; display: block; padding: 0px 13px; width: auto;"><a href="http://harmash.com/">HARMASH.COM</a></li>
+        </ul>
+    </div>
+    <div id="container" style="visibility: visible; display: table; border-right: 2px solid rgb(212, 212, 212);">
+        <div id="container_row" style="display: table-row;">
+            <div id="side_nav" class="static-side-nav" style="width: 280px; display: block; height: auto;">
+                <ul><li id="method_img" style="display: block;"><img src="./Swing - الكلاس JOptionPane_files/java-swing-icon.PNG"></li>
+<li class="title">أساسيات المكتبة</li>
+<li><a href="https://harmash.com/swing/swing-overview"><span class="en">Swing</span> - نظرة عامة</a></li>
+<li><a href="https://harmash.com/swing/swing-jframe"><span class="en">Swing</span> - إنشاء نافذة <span class="en">( Frame )</span></a></li>
+<li class="title">عناصر واجهة المستخدم</li>
+<li><a href="https://harmash.com/swing/swing-component"><span class="en">Component - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jlabel"><span class="en">JLabel - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jbutton"><span class="en">JButton - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jtextfield"><span class="en">JTextField - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jpasswordfield"><span class="en">JPasswordField - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jtextarea"><span class="en">JTextArea - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jcheckbox"><span class="en">JCheckBox - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jradiobutton"><span class="en">JRadioButton - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jcombobox"><span class="en">JComboBox - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jlist"><span class="en">JList - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jspinner"><span class="en">JSpinner - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jslider"><span class="en">JSlider - Swing</span></a>
+</li><li><a href="https://harmash.com/swing/swing-jtable"><span class="en">JTable - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jtree"><span class="en">JTree - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jprogressbar"><span class="en">JProgressBar - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jpanel"><span class="en">JPanel - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jtabbedpane"><span class="en">JTabbedPane - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-joptionpane" style="background-color: rgb(243, 247, 129);"><span class="en">JOptionPane - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jdialog"><span class="en">JDialog - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jcolorchooser"><span class="en">JColorChooser - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jfilechooser"><span class="en">JFileChooser - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jsplitpane"><span class="en">JSplitPane - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jpopumenu"><span class="en">JPopupMenu - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-jmenubar"><span class="en">JMenuBar - Swing</span></a></li>
+<li class="title">إدارة محتوى النافذة</li>
+<li><a href="https://harmash.com/swing/swing-borderlayout"><span class="en">BorderLayout - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-flowlayout"><span class="en">FlowLayout - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-gridlayout"><span class="en">GridLayout - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-gridbaglayout"><span class="en">GridBagLayout - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-cardlayout"><span class="en">CardLayout - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-grouplayout"><span class="en">GroupLayout - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/swing-scroll-layout"><span class="en">Scroll Layout - Swing</span></a></li>
+<li class="title">الأحداث <span class="en">( Events )</span></li>
+<li><a href="https://harmash.com/swing/awt-actionlistener"><span class="en">ActionListener - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/awt-itemlistener"><span class="en">ItemListener - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/awt-keylistener"><span class="en">KeyListener - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/awt-mouselistener"><span class="en">MouseListener - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/awt-mousemotionlistener"><span class="en">MouseMotionListener - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/awt-focuslistener"><span class="en">FocusListener - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/awt-windowlistener"><span class="en">WindowListener - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/awt-adjustmentlistener"><span class="en">AdjustmentListener - Swing</span></a></li>
+<li><a href="https://harmash.com/swing/make-swing-components-synchronized"><span class="en">Swing</span> - حل مشكلة المزامنة</a></li>
+<li class="title">تعلم بناء تطبيقات و ألعاب</li>
+<li><a href="https://harmash.com/swing/swing-projects"><span class="en">Swing</span> - جميع المشاريع</a></li>
+<li><a href="https://harmash.com/swing/swing-color-picker-source-code"><span class="en">Swing</span> - برنامج إختيار الألوان</a></li>
+<li><a href="https://harmash.com/swing/swing-tic-tac-toe-source-code"><span class="en">Swing</span> - لعبة <span class="en">Tic Tac Toe</span></a></li>
+<li><a href="https://harmash.com/swing/swing-calculator-source-code"><span class="en">Swing</span> - آلة حاسبة بسيطة</a></li>
+<li><a href="https://harmash.com/swing/swing-scientific-calculator-source-code"><span class="en">Swing</span> - ألة حاسبة علمية</a></li>
+<li><a href="https://harmash.com/swing/swing-age-calculator-source-code"><span class="en">Swing</span> - برنامج حساب الأعمار</a></li>
+<li><a href="https://harmash.com/swing/swing-snake-2d-source-code"><span class="en">Swing</span> - لعبة الأفعى <span class="en">Snake 2D</span></a></li>
+<li><a href="https://harmash.com/swing/swing-ip-finder-source-code"><span class="en">Swing</span> - محلل عناوين المواقع</a></li>
+<li><a href="https://harmash.com/swing/swing-company-products-manager-source-code"><span class="en">Swing</span> - برنامج إدارة المحتوى</a></li>
+</ul>
+            </div>
+            <div id="main" style="width: 1016px;">
+                
+
+                <div id="top_ads" style="height: 90px;"><script async="" src="./Swing - الكلاس JOptionPane_files/f(9).txt"></script><!-- Ad 970 x 90 --><ins class="adsbygoogle" style="display:inline-block;width:970px;height:90px" data-ad-client="ca-pub-1613148428630404" data-ad-slot="5975336166" data-adsbygoogle-status="done" data-ad-status="filled"><ins id="aswift_0_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:970px;background-color:transparent;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_0_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:970px;background-color:transparent;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:970px;height:90px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="970" height="90" frameborder="0" src="./Swing - الكلاس JOptionPane_files/ads.html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!1" data-google-query-id="COSl2ZqiwvICFcng7Qode94ODw" data-load-complete="true"></iframe></ins></ins></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+                
+                <div class="next-and-previous-lessons" style="display: block;">
+                    <a class="next-page" href="https://harmash.com/swing/swing-jdialog" style="padding: 0px 25px;">
+                        <span class="next-page-text">الدرس التالي</span><span class="cursor">»</span>
+                    </a>
+                    <a class="previous-page" href="https://harmash.com/swing/swing-jtabbedpane" style="padding: 0px 25px;">
+                        <span class="cursor">»</span><span class="previous-page-text">الدرس السابق</span>
+                    </a>
+                </div>
+
+                <div id="hsoub_ads">
+                    <span class="its-ad">إعلان</span>
+                    <a rel="noopener" target="_blank" href="https://academy.hsoub.com/learn/hybrid-mobile-application-development/">
+        <div class="text ad-3">
+            <b>دورة تطوير تطبيقات الجوال باستخدام تقنيات الويب</b>
+            <span class="description">في هذه الدورة ستتعلم أساسيات منصة كوردوفا و كيف تستخدمها لتطوير تطبيقات متعددة المنصات, بناء تطبيق لموقع Wordpress,
+            تطوير تطبيق قائمة مهام, تطوير تطبيق حالة الطقس, تطوير تطبيق لمطعم باستخدام إطار العمل Ionic 4.</span>
+            <span class="button"><span class="content">لمزيد من التفاصيل</span> <span class="arrow">»</span></span>
+        </div>
+    </a>                </div>
+
+                <h1><span class="session">Java Swing</span>الكلاس <code data-enlighter-language="java" style="display: none;">JOptionPane</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">JOptionPane</span></span></h1><div id="shortcuts"><ul><li><b>›</b>مقدمة</li><li><b>›</b>ثوابت الكلاس <code data-enlighter-language="java" style="display: none;">JOptionPane</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">JOptionPane</span></span></li><li><b>›</b>دوال الكلاس <code data-enlighter-language="java" style="display: none;">JOptionPane</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">JOptionPane</span></span></li><li><b>›</b>أشكال الـ <code data-enlighter-language="java" style="display: none;">JOptionPane</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">JOptionPane</span></span></li><li><b>›</b>أمثلة شاملة</li></ul></div>
+<article>
+    <h2>مقدمة</h2>
+	<p>الكلاس <code data-enlighter-language="java" style="display: none;">JOptionPane</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">JOptionPane</span></span> يستخدم لإظهار نافذة خيارات <span class="inline">(<span class="word">Option Pane</span>)</span> أمام للمستخدم لعدة أسباب:</p>
+	<ol class="arabic">
+	    <li><p>لتحذيره أو إعلامه بشيء ما.</p></li>
+	    <li><p>لسؤاله إذا كان موافقاً على أمر ما أم لا.</p></li>
+	    <li><p>ليطلب منه إدخال قيمة.</p></li>
+	</ol>
+	<br>
+	<p>الكلاس <code data-enlighter-language="java" style="display: none;">JOptionPane</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">JOptionPane</span></span> يوفر دوال كثيرة يمكن إستخدامها للحصول <span class="word">Message Dialog</span>, <span class="word">Confirm Dialog</span> و <span class="word">Input Dialog</span>.</p><br>
+	<h3>مصطلحات تقنية</h3>
+	<table class="list full-width"> 
+	    <tbody><tr>
+			<th>المصطلح</th>
+			<th>معناه</th>
+		</tr>
+		<tr>
+	    	<td class="center"><span class="tech-word">Message Dialog</span></td>
+		    <td>عبارة عن نافذة منبثقة تستخدم لإعلام المستخدم بشيء ما.<br>
+			نحصل على <span class="word">Message Dialog</span> بواسطة الدالة <code data-enlighter-language="java" style="display: none;">showMessageDialog()</code><span class="enlighterEnlighterJS EnlighterJS"><span class="nor">showMessageDialog</span><span class="br0">(</span><span class="br0">)</span></span>.</td>
+		</tr>
+		<tr>
+	    	<td class="center"><span class="tech-word">Confirm Dialog</span></td>
+		    <td>عبارة عن نافذة منبثقة تستخدم لسؤال المستخدم إذا كان موافقاً على شيء ما أم لا.<br>
+			نحصل على <span class="word">Confirm Dialog</span> بواسطة الدالة <code data-enlighter-language="java" style="display: none;">showConfirmDialog()</code><span class="enlighterEnlighterJS EnlighterJS"><span class="nor">showConfirmDialog</span><span class="br0">(</span><span class="br0">)</span></span>.</td>
+		</tr>
+		<tr>
+	    	<td class="center"><span class="tech-word">Input Dialog</span></td>
+		    <td>عبارة عن نافذة منبثقة تستخدم لجعل المستخدم يقوم بإدخال أو إختيار قيمة ما<br>
+			نحصل على <span class="word">Input Dialog</span> بواسطة الدالة <code data-enlighter-language="java" style="display: none;">showInputDialog()</code><span class="enlighterEnlighterJS EnlighterJS"><span class="nor">showInputDialog</span><span class="br0">(</span><span class="br0">)</span></span>.</td>
+		</tr>
+	</tbody></table>
+	<br>
+	<h3>معلومة تقنية</h3>
+	<p>الـ <span class="word">Option Pane</span> عبارة عن <span class="word">Internal Frame</span> لأنها عبارة عن نافذة تظهر بداخل النافذة التي تستدعى منها.</p>
+	<br>
+    <h3>بناؤه</h3>
+	<pre data-enlighter-language="java" data-enlighter-linenumbers="false" style="display: none;">public class JOptionPane
+extends JComponent
+implements Accessible
+	</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ul class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="kw3">public</span><span class=""> </span><span class="kw3">class</span><span class=""> JOptionPane</span></li><li class=" even"><span class=""></span><span class="kw3">extends</span><span class=""> JComponent</span></li><li class=" odd"><span class=""></span><span class="kw3">implements</span><span class=""> Accessible</span></li></ul><pre style="display: none;">public class JOptionPane
+extends JComponent
+implements Accessible</pre></div>
+</article>
+<article>
+    <h2>ثوابت الكلاس <code data-enlighter-language="java" style="display: none;">JOptionPane</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">JOptionPane</span></span></h2>
+	<p>الجدول التالي يحتوي على ثوابت الكلاس <code data-enlighter-language="java" style="display: none;">JOptionPane</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">JOptionPane</span></span> المخصصة لتحديد أيقونة الـ <span class="word">Option Pane</span>.</p>
+	<table class="list full-width">
+	    <tbody><tr>
+			<th>الثابت</th>
+			<th>إستخدامه</th>
+			<th>الأيقونة التي يظهرها</th>
+		</tr>
+		<tr>
+			<td class="center"><code data-enlighter-language="java" style="display: none;">ERROR_MESSAGE</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">ERROR_MESSAGE</span></span></td>
+		    <td>يظهر أيقونة تلفت نظر المستخدم إلى وجود خطأ ما.</td>
+		    <td class="center"><img src="./Swing - الكلاس JOptionPane_files/joptionpane_error_message.PNG"></td>
+		</tr>
+		<tr>
+			<td class="center"><code data-enlighter-language="java" style="display: none;">INFORMATION_MESSAGE</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">INFORMATION_MESSAGE</span></span></td>
+		    <td>يظهر أيقونة تلفت نظر المستخدم لقراءة معلومة ما.</td>
+		    <td class="center"><img src="./Swing - الكلاس JOptionPane_files/joptionpane_information_message.PNG"></td>
+		</tr>
+		<tr>
+			<td class="center"><code data-enlighter-language="java" style="display: none;">WARNING_MESSAGE</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">WARNING_MESSAGE</span></span></td>
+		    <td>يظهر أيقونة تلفت نظر المستخدم لوجود تحذير ما.</td>
+		    <td class="center"><img src="./Swing - الكلاس JOptionPane_files/joptionpane_warning_message.PNG"></td>
+		</tr>
+		<tr>
+			<td class="center"><code data-enlighter-language="java" style="display: none;">QUESTION_MESSAGE</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">QUESTION_MESSAGE</span></span></td>
+		    <td>يظهر أيقونة تلفت نظر المستخدم لسؤاله عن شيئاً ما.</td>
+		    <td class="center"><img src="./Swing - الكلاس JOptionPane_files/joptionpane_question_message.PNG"></td>
+		</tr>
+		<tr>
+			<td class="center"><code data-enlighter-language="java" style="display: none;">PLAIN_MESSAGE</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">PLAIN_MESSAGE</span></span></td>
+		    <td>يستخدم لعدم إظهار أي أيقونة.</td>
+		    <td></td>
+		</tr>
+	</tbody></table>
+	<br>
+	<p>الجدول التالي يحتوي على ثوابت الكلاس <code data-enlighter-language="java" style="display: none;">JOptionPane</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">JOptionPane</span></span> المخصصة لتحديد الأزرار التي ستوجد في الـ <span class="word">Option Pane</span> و تحديداً في الـ <span class="word">Confirm Dialog</span>.</p>
+	<table class="list full-width">
+	    <tbody><tr>
+			<th>الثابت</th>
+			<th>إستخدامه</th>
+			<th>الأزرار التي يظهرها</th>
+		</tr>
+		<tr>
+			<td class="center"><code data-enlighter-language="java" style="display: none;">YES_NO_OPTION</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">YES_NO_OPTION</span></span></td>
+		    <td>يستخدم لإظهار الأزرار <span class="word">Yes</span> و <span class="word">No</span> في الـ <span class="word">Option Pane</span>.</td>
+		    <td class="center"><img src="./Swing - الكلاس JOptionPane_files/joptionpane_yes_no.PNG"></td>
+		</tr>
+		<tr>
+			<td class="center"><code data-enlighter-language="java" style="display: none;">YES_NO_CANCEL_OPTION</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">YES_NO_CANCEL_OPTION</span></span></td>
+		    <td>ييستخدم لإظهار الأزرار <span class="word">Yes</span> و <span class="word">No</span> و <span class="word">Cancel</span> في الـ <span class="word">Option Pane</span>.</td>
+		    <td class="center"><img src="./Swing - الكلاس JOptionPane_files/joptionpane_yes_no_cancel.PNG"></td>
+		</tr>
+		<tr>
+			<td class="center"><code data-enlighter-language="java" style="display: none;">OK_CANCEL_OPTION</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">OK_CANCEL_OPTION</span></span></td>
+		    <td>يستخدم لإظهار الأزرار <span class="word">OK</span> و <span class="word">Cancel</span> في الـ <span class="word">Option Pane</span>.</td>
+		    <td class="center"><img src="./Swing - الكلاس JOptionPane_files/joptionpane_ok_cancel.PNG"></td>
+		</tr>
+	</tbody></table>
+</article>
+<article>
+    <h2>دوال الكلاس <code data-enlighter-language="java" style="display: none;">JOptionPane</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">JOptionPane</span></span></h2>
+	<p>الجدول التالي يحتوي على أهم الدوال الموجودة في الكلاس <code data-enlighter-language="java" style="display: none;">JOptionPane</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">JOptionPane</span></span>.</p>
+	<table class="list full-width rows-numbers">
+	    <tbody><tr>
+			<th colspan="2">الدالة مع تعريفها</th>
+		</tr>
+	    <tr><td class="row-number">1</td>
+		    <td><span class="code-title"><code data-enlighter-language="java" style="display: none;">public static void showMessageDialog(Component parentComponent, Object message)</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw3">public</span><span class=""> </span><span class="kw3">static</span><span class=""> </span><span class="kw3">void</span><span class=""> </span><span class="nor">showMessageDialog</span><span class="br0">(</span><span class="">Component parentComponent, Object message</span><span class="br0">)</span></span></span>
+			تظهر <span class="word">Option Pane</span> يعرض نافذة فيها رسالة أمام المستخدم.<br><br>
+			<ul class="explain">
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">parentComponent</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">parentComponent</span></span> نضع الـ <span class="word">Frame</span> التي نريده أن يظهر بداخلها. أو نضع <code data-enlighter-language="java" style="display: none;">null</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw1">null</span></span> لجعله يظهر في وسط شاشة المستخدم.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">message</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">message</span></span> نضع نص النافذة التي ستظهر.</p></li>
+			</ul>
+			</td>
+		</tr>
+		<tr><td class="row-number">2</td>
+		    <td><span class="code-title"><code data-enlighter-language="java" style="display: none;">public static void showMessageDialog(Component parentComponent, Object message, String title, int messageType)</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw3">public</span><span class=""> </span><span class="kw3">static</span><span class=""> </span><span class="kw3">void</span><span class=""> </span><span class="nor">showMessageDialog</span><span class="br0">(</span><span class="">Component parentComponent, Object message, String title, </span><span class="kw2">int</span><span class=""> messageType</span><span class="br0">)</span></span></span>
+			تظهر <span class="word">Option Pane</span> يعرض نافذة فيها رسالة أمام المستخدم لها عنوان و أيقونة من الأيقونات المجهزة في جافا.<br><br>
+			<ul class="explain">
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">parentComponent</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">parentComponent</span></span> نضع الـ <span class="word">Frame</span> التي نريده أن يظهر بداخلها. أو نضع <code data-enlighter-language="java" style="display: none;">null</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw1">null</span></span> لجعله يظهر في وسط شاشة المستخدم.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">message</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">message</span></span> نضع نص النافذة التي ستظهر.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">title</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">title</span></span> نضع نص يمثل عنوان النافذة التي ستظهر.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">messageType</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">messageType</span></span> نضع إحدى الثوابت الموجودة في الكلاس <code data-enlighter-language="java" style="display: none;">JOptionPane</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">JOptionPane</span></span> المخصصة لإظهار أيقونة في الـ <span class="word">Option Pane</span>.</p></li>
+			</ul>
+			</td>
+		</tr>
+		<tr><td class="row-number">3</td>
+		    <td><span class="code-title"><code data-enlighter-language="java" style="display: none;">public static void showMessageDialog(Component parentComponent, Object message, String title, int messageType, Icon icon)</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw3">public</span><span class=""> </span><span class="kw3">static</span><span class=""> </span><span class="kw3">void</span><span class=""> </span><span class="nor">showMessageDialog</span><span class="br0">(</span><span class="">Component parentComponent, Object message, String title, </span><span class="kw2">int</span><span class=""> messageType, Icon icon</span><span class="br0">)</span></span></span>
+			تظهر <span class="word">Option Pane</span> يعرض نافذة فيها رسالة أمام المستخدم لها عنوان و أيقونة غير موجودة في جافا.<br><br>
+			<ul class="explain">
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">parentComponent</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">parentComponent</span></span> نضع الـ <span class="word">Frame</span> التي نريده أن يظهر بداخلها. أو نضع <code data-enlighter-language="java" style="display: none;">null</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw1">null</span></span> لجعله يظهر في وسط شاشة المستخدم.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">message</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">message</span></span> نضع نص النافذة التي ستظهر.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">title</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">title</span></span> نضع نص يمثل عنوان النافذة التي ستظهر.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">messageType</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">messageType</span></span> نضع إحدى الثوابت الموجودة في الكلاس <code data-enlighter-language="java" style="display: none;">JOptionPane</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">JOptionPane</span></span> المخصصة لإظهار أيقونة في الـ <span class="word">Option Pane</span>.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">icon</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">icon</span></span> نضع كائن من الكلاس <code data-enlighter-language="java" style="display: none;">Icon</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">Icon</span></span> يحتوي على رابط الأيقونة التي ستظهر.</p></li>
+			</ul>
+			</td>
+		</tr>
+	    <tr><td class="row-number">4</td>
+		    <td><span class="code-title"><code data-enlighter-language="java" style="display: none;">public static int showConfirmDialog(Component parentComponent, Object message)</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw3">public</span><span class=""> </span><span class="kw3">static</span><span class=""> </span><span class="kw2">int</span><span class=""> </span><span class="nor">showConfirmDialog</span><span class="br0">(</span><span class="">Component parentComponent, Object message</span><span class="br0">)</span></span></span>
+			تظهر <span class="word">Option Pane</span> يعرض نافذة أمام المستخدم فيها نص الذي تم تمريره لها و ثلاث خيارات <span class="word">Yes</span>, <span class="word">No</span> و <span class="word">Cancel</span>.<br>
+			إضافة إلى ذلك تضع النص <span class="inline">( <code class="brown" style="display: none;">Select an Option</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">Select an Option</span></span> )</span> كعنوان للنافذة.<br><br>
+			<ul class="explain">
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">parentComponent</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">parentComponent</span></span> نضع الـ <span class="word">Frame</span> التي نريده أن يظهر بداخلها. أو نضع <code data-enlighter-language="java" style="display: none;">null</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw1">null</span></span> لجعله يظهر في وسط شاشة المستخدم.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">message</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">message</span></span> نضع نص النافذة التي ستظهر.</p></li>
+			</ul>
+			</td>
+		</tr>
+	    <tr><td class="row-number">5</td>
+		    <td><span class="code-title"><code data-enlighter-language="java" style="display: none;">public static int showConfirmDialog(Component parentComponent, Object message, String title, int optionType)</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw3">public</span><span class=""> </span><span class="kw3">static</span><span class=""> </span><span class="kw2">int</span><span class=""> </span><span class="nor">showConfirmDialog</span><span class="br0">(</span><span class="">Component parentComponent, Object message, String title, </span><span class="kw2">int</span><span class=""> optionType</span><span class="br0">)</span></span></span>
+			تظهر <span class="word">Option Pane</span> يعرض نافذة أمام المستخدم فيها النص الذي تم تمريره لها و الخيارات التي تم تحديدها.<br><br>
+			<ul class="explain">
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">parentComponent</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">parentComponent</span></span> نضع الـ <span class="word">Frame</span> التي نريده أن يظهر بداخلها. أو نضع <code data-enlighter-language="java" style="display: none;">null</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw1">null</span></span> لجعله يظهر في وسط شاشة المستخدم.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">message</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">message</span></span> نضع نص النافذة التي ستظهر.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">title</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">title</span></span> نضع نص يمثل عنوان النافذة التي ستظهر.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">optionType</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">optionType</span></span> نضع إحدى الثوابت الموجودة في الكلاس <code data-enlighter-language="java" style="display: none;">JOptionPane</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">JOptionPane</span></span> المخصصة لتحديد الخيارات التي ستظهر في الـ <span class="word">Option Pane</span>.</p></li>
+			</ul>
+			</td>
+		</tr>
+		<tr><td class="row-number">6</td>
+		    <td><span class="code-title"><code data-enlighter-language="java" style="display: none;">public static int showConfirmDialog(Component parentComponent, Object message, String title, int optionType, int messageType)</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw3">public</span><span class=""> </span><span class="kw3">static</span><span class=""> </span><span class="kw2">int</span><span class=""> </span><span class="nor">showConfirmDialog</span><span class="br0">(</span><span class="">Component parentComponent, Object message, String title, </span><span class="kw2">int</span><span class=""> optionType, </span><span class="kw2">int</span><span class=""> messageType</span><span class="br0">)</span></span></span>
+			تظهر <span class="word">Option Pane</span> يعرض نافذة أمام المستخدم فيها النص الذي تم تمريره لها و الخيارات و الأيقونة من الأيقونات المجهزة في جافا.<br><br>
+			<ul class="explain">
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">parentComponent</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">parentComponent</span></span> نضع الـ <span class="word">Frame</span> التي نريده أن يظهر بداخلها. أو نضع <code data-enlighter-language="java" style="display: none;">null</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw1">null</span></span> لجعله يظهر في وسط شاشة المستخدم.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">message</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">message</span></span> نضع نص النافذة التي ستظهر.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">title</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">title</span></span> نضع نص يمثل عنوان النافذة التي ستظهر.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">optionType</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">optionType</span></span> نضع إحدى الثوابت الموجودة في الكلاس <code data-enlighter-language="java" style="display: none;">JOptionPane</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">JOptionPane</span></span> المخصصة لتحديد الخيارات التي ستظهر في الـ <span class="word">Option Pane</span>.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">messageType</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">messageType</span></span> نضع إحدى الثوابت الموجودة في الكلاس <code data-enlighter-language="java" style="display: none;">JOptionPane</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">JOptionPane</span></span> المخصصة لإظهار أيقونة في الـ <span class="word">Option Pane</span>.</p></li>
+			</ul>
+			</td>
+		</tr>
+		<tr><td class="row-number">7</td>
+		    <td><span class="code-title"><code data-enlighter-language="java" style="display: none;">public static int showConfirmDialog(Component parentComponent, Object message, String title, int optionType, int messageType, Icon icon)</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw3">public</span><span class=""> </span><span class="kw3">static</span><span class=""> </span><span class="kw2">int</span><span class=""> </span><span class="nor">showConfirmDialog</span><span class="br0">(</span><span class="">Component parentComponent, Object message, String title, </span><span class="kw2">int</span><span class=""> optionType, </span><span class="kw2">int</span><span class=""> messageType, Icon icon</span><span class="br0">)</span></span></span>
+			تظهر <span class="word">Option Pane</span> يعرض نافذة أمام المستخدم فيها النص الذي تم تمريره لها و الخيارات و الأيقونة التي تم تحديدها.<br><br>
+			<ul class="explain">
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">parentComponent</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">parentComponent</span></span> نضع الـ <span class="word">Frame</span> التي نريده أن يظهر بداخلها. أو نضع <code data-enlighter-language="java" style="display: none;">null</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw1">null</span></span> لجعله يظهر في وسط شاشة المستخدم.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">message</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">message</span></span> نضع نص النافذة التي ستظهر.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">title</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">title</span></span> نضع نص يمثل عنوان النافذة التي ستظهر.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">optionType</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">optionType</span></span> نضع إحدى الثوابت الموجودة في الكلاس <code data-enlighter-language="java" style="display: none;">JOptionPane</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">JOptionPane</span></span> المخصصة لتحديد الخيارات التي ستظهر في الـ <span class="word">Option Pane</span>.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">messageType</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">messageType</span></span> نضع إحدى الثوابت الموجودة في الكلاس <code data-enlighter-language="java" style="display: none;">JOptionPane</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">JOptionPane</span></span> المخصصة لإظهار أيقونة في الـ <span class="word">Option Pane</span>.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">icon</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">icon</span></span> نضع كائن من الكلاس <code data-enlighter-language="java" style="display: none;">Icon</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">Icon</span></span> يحتوي على رابط الأيقونة التي ستظهر.</p></li>
+			</ul>
+			</td>
+		</tr>
+		<tr><td class="row-number">8</td>
+		    <td><span class="code-title"><code data-enlighter-language="java" style="display: none;">public static String showInputDialog(Object message)</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw3">public</span><span class=""> </span><span class="kw3">static</span><span class=""> String </span><span class="nor">showInputDialog</span><span class="br0">(</span><span class="">Object message</span><span class="br0">)</span></span></span>
+			تظهر <span class="word">Option Pane</span> يعرض نافذة أمام المستخدم فيها نص الذي تم تمريره لها و مربع نص و خياران <span class="word">Ok</span> و <span class="word">Cancel</span>.<br>
+			إضافة إلى ذلك تضع النص <span class="inline">( <span class="code brown">Input</span> )</span> كعنوان للنافذة.<br><br>
+			مكان الباراميتر <code data-enlighter-language="java" style="display: none;">message</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">message</span></span> نضع نص النافذة التي ستظهر.</td>
+		</tr>
+		<tr><td class="row-number">9</td>
+		    <td><span class="code-title"><code data-enlighter-language="java" style="display: none;">public static String showInputDialog(Object message, Object initialSelectionValue)</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw3">public</span><span class=""> </span><span class="kw3">static</span><span class=""> String </span><span class="nor">showInputDialog</span><span class="br0">(</span><span class="">Object message, Object initialSelectionValue</span><span class="br0">)</span></span></span>
+			تظهر <span class="word">Option Pane</span> يعرض نافذة أمام المستخدم فيها نص الذي تم تمريره لها و مربع نص يحتوي على قيمة أولية و خياران <span class="word">Ok</span> و <span class="word">Cancel</span>.<br>
+			إضافة إلى ذلك تضع النص <span class="inline">( <span class="code brown">Input</span> )</span> كعنوان للنافذة.<br><br>
+			<ul class="explain">
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">message</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">message</span></span> نضع نص النافذة التي ستظهر.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">initialSelectionValue</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">initialSelectionValue</span></span> نضع قيمة إفتراضية في مربع النص.</p></li>
+			</ul>
+			</td>
+		</tr>
+		<tr><td class="row-number">10</td>
+		    <td><span class="code-title"><code data-enlighter-language="java" style="display: none;">public static String showInputDialog(Component parentComponent, Object message)</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw3">public</span><span class=""> </span><span class="kw3">static</span><span class=""> String </span><span class="nor">showInputDialog</span><span class="br0">(</span><span class="">Component parentComponent, Object message</span><span class="br0">)</span></span></span>
+			تظهر <span class="word">Option Pane</span> يعرض نافذة أمام المستخدم فيها نص الذي تم تمريره لها و مربع نص و خياران <span class="word">Ok</span> و <span class="word">Cancel</span>.<br>
+			إضافة إلى ذلك تضع النص <span class="inline">( <span class="code brown">Input</span> )</span> كعنوان للنافذة.<br><br>
+			<ul class="explain">
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">parentComponent</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">parentComponent</span></span> نضع الـ <span class="word">Frame</span> التي نريده أن يظهر بداخلها. أو نضع <code data-enlighter-language="java" style="display: none;">null</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw1">null</span></span> لجعله يظهر في وسط شاشة المستخدم.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">message</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">message</span></span> نضع نص النافذة التي ستظهر.</p></li>
+			</ul>
+			</td>
+		</tr>
+		<tr><td class="row-number">11</td>
+		    <td><span class="code-title"><code data-enlighter-language="java" style="display: none;">public static String showInputDialog(Component parentComponent, Object message, Object initialSelectionValue)</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw3">public</span><span class=""> </span><span class="kw3">static</span><span class=""> String </span><span class="nor">showInputDialog</span><span class="br0">(</span><span class="">Component parentComponent, Object message, Object initialSelectionValue</span><span class="br0">)</span></span></span>
+			تظهر <span class="word">Option Pane</span> يعرض نافذة أمام المستخدم فيها نص الذي تم تمريره لها و مربع نص يحتوي على قيمة أولية و خياران <span class="word">Ok</span> و <span class="word">Cancel</span>.<br>
+			إضافة إلى ذلك تضع النص <span class="inline">( <span class="code brown">Input</span> )</span> كعنوان للنافذة.<br><br>
+			<ul class="explain">
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">parentComponent</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">parentComponent</span></span> نضع الـ <span class="word">Frame</span> التي نريده أن يظهر بداخلها. أو نضع <code data-enlighter-language="java" style="display: none;">null</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw1">null</span></span> لجعله يظهر في وسط شاشة المستخدم.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">message</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">message</span></span> نضع نص النافذة التي ستظهر.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">initialSelectionValue</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">initialSelectionValue</span></span> نضع قيمة إفتراضية في مربع النص.</p></li>
+			</ul>
+			</td>
+		</tr>
+		<tr><td class="row-number">12</td>
+		    <td><span class="code-title"><code data-enlighter-language="java" style="display: none;">public static String showInputDialog(Component parentComponent, Object message, String title, int messageType)</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw3">public</span><span class=""> </span><span class="kw3">static</span><span class=""> String </span><span class="nor">showInputDialog</span><span class="br0">(</span><span class="">Component parentComponent, Object message, String title, </span><span class="kw2">int</span><span class=""> messageType</span><span class="br0">)</span></span></span>
+			تظهر <span class="word">Option Pane</span> يعرض نافذة أمام المستخدم فيها نص الذي تم تمريره لها و مربع نص يحتوي على قيمة أولية و خياران <span class="word">Ok</span> و <span class="word">Cancel</span>.<br><br>
+			<ul class="explain">
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">parentComponent</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">parentComponent</span></span> نضع الـ <span class="word">Frame</span> التي نريده أن يظهر بداخلها. أو نضع <code data-enlighter-language="java" style="display: none;">null</code><span class="enlighterEnlighterJS EnlighterJS"><span class="kw1">null</span></span> لجعله يظهر في وسط شاشة المستخدم.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">message</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">message</span></span> نضع نص النافذة التي ستظهر.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">title</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">title</span></span> نضع نص يمثل عنوان النافذة التي ستظهر.</p></li>
+			    <li><p>مكان الباراميتر <code data-enlighter-language="java" style="display: none;">messageType</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">messageType</span></span> نضع إحدى الثوابت الموجودة في الكلاس <code data-enlighter-language="java" style="display: none;">JOptionPane</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">JOptionPane</span></span> المخصصة لإظهار أيقونة في الـ <span class="word">Option Pane</span>.</p></li>
+			</ul>
+			</td>
+		</tr>
+	</tbody></table>
+</article>
+<article>
+    <h2>أشكال الـ <code data-enlighter-language="java" style="display: none;">JOptionPane</code><span class="enlighterEnlighterJS EnlighterJS"><span class="">JOptionPane</span></span></h2>
+	<br>
+	<img src="./Swing - الكلاس JOptionPane_files/joptionpane_plain_message_dialog.PNG">
+	<pre data-enlighter-language="java" data-enlighter-linenumbers="false" style="display: none;">JOptionPane.showMessageDialog(null, "This is a plain message", "Plain Message", JOptionPane.PLAIN_MESSAGE);
+	</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ul class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">JOptionPane.</span><span class="me0">showMessageDialog</span><span class="br0">(</span><span class="kw1">null</span><span class="">, </span><span class="st1">"This is a plain message"</span><span class="">, </span><span class="st1">"Plain Message"</span><span class="">, JOptionPane.</span><span class="me0">PLAIN_MESSAGE</span><span class="br0">)</span><span class="">;</span></li></ul><pre style="display: none;">JOptionPane.showMessageDialog(null, "This is a plain message", "Plain Message", JOptionPane.PLAIN_MESSAGE);</pre></div>
+	<br><br>
+	<img src="./Swing - الكلاس JOptionPane_files/joptionpane_information_message_dialog.PNG">
+	<pre data-enlighter-language="java" data-enlighter-linenumbers="false" style="display: none;">JOptionPane.showMessageDialog(null, "This is an information message", "Information Message", JOptionPane.INFORMATION_MESSAGE);
+	</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ul class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">JOptionPane.</span><span class="me0">showMessageDialog</span><span class="br0">(</span><span class="kw1">null</span><span class="">, </span><span class="st1">"This is an information message"</span><span class="">, </span><span class="st1">"Information Message"</span><span class="">, JOptionPane.</span><span class="me0">INFORMATION_MESSAGE</span><span class="br0">)</span><span class="">;</span></li></ul><pre style="display: none;">JOptionPane.showMessageDialog(null, "This is an information message", "Information Message", JOptionPane.INFORMATION_MESSAGE);</pre></div>
+	<br><br>
+	<img src="./Swing - الكلاس JOptionPane_files/joptionpane_warning_message_dialog.PNG">
+	<pre data-enlighter-language="java" data-enlighter-linenumbers="false" style="display: none;">JOptionPane.showMessageDialog(null, "This is a warning message", "Warning Message", JOptionPane.WARNING_MESSAGE);
+	</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ul class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">JOptionPane.</span><span class="me0">showMessageDialog</span><span class="br0">(</span><span class="kw1">null</span><span class="">, </span><span class="st1">"This is a warning message"</span><span class="">, </span><span class="st1">"Warning Message"</span><span class="">, JOptionPane.</span><span class="me0">WARNING_MESSAGE</span><span class="br0">)</span><span class="">;</span></li></ul><pre style="display: none;">JOptionPane.showMessageDialog(null, "This is a warning message", "Warning Message", JOptionPane.WARNING_MESSAGE);</pre></div>
+	<br><br>
+	<img src="./Swing - الكلاس JOptionPane_files/joptionpane_error_message_dialog.PNG">
+	<pre data-enlighter-language="java" data-enlighter-linenumbers="false" style="display: none;">JOptionPane.showMessageDialog(null, "This is an error message", "Error Message", JOptionPane.ERROR_MESSAGE);
+	</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ul class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">JOptionPane.</span><span class="me0">showMessageDialog</span><span class="br0">(</span><span class="kw1">null</span><span class="">, </span><span class="st1">"This is an error message"</span><span class="">, </span><span class="st1">"Error Message"</span><span class="">, JOptionPane.</span><span class="me0">ERROR_MESSAGE</span><span class="br0">)</span><span class="">;</span></li></ul><pre style="display: none;">JOptionPane.showMessageDialog(null, "This is an error message", "Error Message", JOptionPane.ERROR_MESSAGE);</pre></div>
+	<br><br>
+	<img src="./Swing - الكلاس JOptionPane_files/joptionpane_question_message_dialog.PNG">
+	<pre data-enlighter-language="java" data-enlighter-linenumbers="false" style="display: none;">JOptionPane.showMessageDialog(null, "This is a question message", "Quesiton Message", JOptionPane.QUESTION_MESSAGE);
+	</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ul class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">JOptionPane.</span><span class="me0">showMessageDialog</span><span class="br0">(</span><span class="kw1">null</span><span class="">, </span><span class="st1">"This is a question message"</span><span class="">, </span><span class="st1">"Quesiton Message"</span><span class="">, JOptionPane.</span><span class="me0">QUESTION_MESSAGE</span><span class="br0">)</span><span class="">;</span></li></ul><pre style="display: none;">JOptionPane.showMessageDialog(null, "This is a question message", "Quesiton Message", JOptionPane.QUESTION_MESSAGE);</pre></div>
+	<br><br>
+	<img src="./Swing - الكلاس JOptionPane_files/joptionpane_confirm_dialog_yes_no_cancel.PNG">
+	<pre data-enlighter-language="java" data-enlighter-linenumbers="false" style="display: none;">JOptionPane.showConfirmDialog(null,
+                              "You are going to delete you history.\nAre you sure?",
+                              "Delete History",
+                              JOptionPane.YES_NO_CANCEL_OPTION,
+                              JOptionPane.WARNING_MESSAGE);
+	</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ul class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">JOptionPane.</span><span class="me0">showConfirmDialog</span><span class="br0">(</span><span class="kw1">null</span><span class="">,</span></li><li class=" even"><span class="">                              </span><span class="st1">"You are going to delete you history.\nAre you sure?"</span><span class="">,</span></li><li class=" odd"><span class="">                              </span><span class="st1">"Delete History"</span><span class="">,</span></li><li class=" even"><span class="">                              JOptionPane.</span><span class="me0">YES_NO_CANCEL_OPTION</span><span class="">,</span></li><li class=" odd"><span class="">                              JOptionPane.</span><span class="me0">WARNING_MESSAGE</span><span class="br0">)</span><span class="">;</span></li></ul><pre style="display: none;">JOptionPane.showConfirmDialog(null,
+                              "You are going to delete you history.\nAre you sure?",
+                              "Delete History",
+                              JOptionPane.YES_NO_CANCEL_OPTION,
+                              JOptionPane.WARNING_MESSAGE);</pre></div>
+	<br><br>
+	<img src="./Swing - الكلاس JOptionPane_files/joptionpane_confirm_dialog_yes_no.PNG">
+	<pre data-enlighter-language="java" data-enlighter-linenumbers="false" style="display: none;">JOptionPane.showConfirmDialog(null,
+                              "Do you like programming?",
+                              "Quesiton",
+                              JOptionPane.YES_NO_OPTION,
+                              JOptionPane.QUESTION_MESSAGE);
+	</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ul class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">JOptionPane.</span><span class="me0">showConfirmDialog</span><span class="br0">(</span><span class="kw1">null</span><span class="">,</span></li><li class=" even"><span class="">                              </span><span class="st1">"Do you like programming?"</span><span class="">,</span></li><li class=" odd"><span class="">                              </span><span class="st1">"Quesiton"</span><span class="">,</span></li><li class=" even"><span class="">                              JOptionPane.</span><span class="me0">YES_NO_OPTION</span><span class="">,</span></li><li class=" odd"><span class="">                              JOptionPane.</span><span class="me0">QUESTION_MESSAGE</span><span class="br0">)</span><span class="">;</span></li></ul><pre style="display: none;">JOptionPane.showConfirmDialog(null,
+                              "Do you like programming?",
+                              "Quesiton",
+                              JOptionPane.YES_NO_OPTION,
+                              JOptionPane.QUESTION_MESSAGE);</pre></div>
+	<br><br>
+	<img src="./Swing - الكلاس JOptionPane_files/joptionpane_confirm_dialog_ok_cancel.PNG">
+	<pre data-enlighter-language="java" data-enlighter-linenumbers="false" style="display: none;">JOptionPane.showConfirmDialog(null,
+                              "Close The program now?",
+                              "Warning",
+                              JOptionPane.OK_CANCEL_OPTION,
+                              JOptionPane.WARNING_MESSAGE);
+	</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ul class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">JOptionPane.</span><span class="me0">showConfirmDialog</span><span class="br0">(</span><span class="kw1">null</span><span class="">,</span></li><li class=" even"><span class="">                              </span><span class="st1">"Close The program now?"</span><span class="">,</span></li><li class=" odd"><span class="">                              </span><span class="st1">"Warning"</span><span class="">,</span></li><li class=" even"><span class="">                              JOptionPane.</span><span class="me0">OK_CANCEL_OPTION</span><span class="">,</span></li><li class=" odd"><span class="">                              JOptionPane.</span><span class="me0">WARNING_MESSAGE</span><span class="br0">)</span><span class="">;</span></li></ul><pre style="display: none;">JOptionPane.showConfirmDialog(null,
+                              "Close The program now?",
+                              "Warning",
+                              JOptionPane.OK_CANCEL_OPTION,
+                              JOptionPane.WARNING_MESSAGE);</pre></div>
+	<br><br>
+	<img src="./Swing - الكلاس JOptionPane_files/joptionpane_input_dialog_with_text_field.PNG">
+	<pre data-enlighter-language="java" data-enlighter-linenumbers="false" style="display: none;">JOptionPane.showInputDialog(null, "Enter value:", "", JOptionPane.PLAIN_MESSAGE);
+	</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ul class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">JOptionPane.</span><span class="me0">showInputDialog</span><span class="br0">(</span><span class="kw1">null</span><span class="">, </span><span class="st1">"Enter value:"</span><span class="">, </span><span class="st1">""</span><span class="">, JOptionPane.</span><span class="me0">PLAIN_MESSAGE</span><span class="br0">)</span><span class="">;</span></li></ul><pre style="display: none;">JOptionPane.showInputDialog(null, "Enter value:", "", JOptionPane.PLAIN_MESSAGE);</pre></div>
+	<br><br>
+	<img src="./Swing - الكلاس JOptionPane_files/joptionpane_input_dialog_with_combo_box.PNG">
+	<pre data-enlighter-language="java" data-enlighter-linenumbers="false" style="display: none;">Object[] values = {"java", "css", "c++", "android"};
+JOptionPane.showInputDialog(null, "Select value", "", JOptionPane.PLAIN_MESSAGE, null, values, values[0]);
+	</pre><div class="EnlighterJSWrapper enlighterEnlighterJSWrapper"><ul class="hoverEnabled enlighterEnlighterJS EnlighterJS"><li class=" odd"><span class="">Object</span><span class="br0">[</span><span class="br0">]</span><span class=""> values = </span><span class="br0">{</span><span class="st1">"java"</span><span class="">, </span><span class="st1">"css"</span><span class="">, </span><span class="st1">"c++"</span><span class="">, </span><span class="st1">"android"</span><span class="br0">}</span><span class="">;</span></li><li class=" even"><span class="">JOptionPane.</span><span class="me0">showInputDialog</span><span class="br0">(</span><span class="kw1">null</span><span class="">, </span><span class="st1">"Select value"</span><span class="">, </span><span class="st1">""</span><span class="">, JOptionPane.</span><span class="me0">PLAIN_MESSAGE</span><span class="">, </span><span class="kw1">null</span><span class="">, values, values</span><span class="br0">[</span><span class="nu0">0</span><span class="br0">]</span><span class="br0">)</span><span class="">;</span></li></ul><pre style="display: none;">Object[] values = {"java", "css", "c++", "android"};
+JOptionPane.showInputDialog(null, "Select value", "", JOptionPane.PLAIN_MESSAGE, null, values, values[0]);</pre></div>
+</article>
+<article style="border-bottom: 0px solid white; padding-bottom: 0px;">
+    <h2>أمثلة شاملة</h2>
+	<br>
+	<h3>المثال الأول</h3>
+	<p>المثال التالي يعلمك طريقة إظهار <span class="word">Message Dialog</span>. كل زر يظهر <span class="word">Message Dialog</span> مختلف.</p>
+	<p><a target="_blank" href="./Swing - الكلاس JOptionPane_files/joptionpane_example_1.PNG"></a><a target="_blank" href="./Swing - الكلاس JOptionPane_files/joptionpane_example_1.PNG"><img src="./Swing - الكلاس JOptionPane_files/joptionpane_example_1.PNG" alt="طريقة إنشاء JOptionPane يمثل message dialog في جافا"></a></p>
+	<p><a class="open-page" href="https://harmash.com/swing/swing-joptionpane/example-1.php" target="_blank">شاهد المثال »</a></p>
+	<br><br>
+	<h3>المثال الثاني</h3>
+	<p>المثال التالي يعلمك طريقة إظهار <span class="word">Confirm Dialog</span>. كل زر يظهر <span class="word">Confirm Dialog</span> مختلف.<br>
+	إضافةً إلى ذلك ستتعلم كيف تنفذ أوامر معينة بناءاً على كل زر موجود في الـ <span class="word">Confirm Dialog</span> في حال قام المستخدم بالنقر عليه.</p>
+	<p><a target="_blank" href="./Swing - الكلاس JOptionPane_files/joptionpane_example_2.PNG"><img src="./Swing - الكلاس JOptionPane_files/joptionpane_example_2.PNG" alt="طريقة إضافة JOptionPane يمثل confirm dialog في جافا"></a></p>
+	<p><a class="open-page" href="https://harmash.com/swing/swing-joptionpane/example-2.php" target="_blank">شاهد المثال »</a></p>
+	<br><br>
+	<h3>المثال الثالث</h3>
+	<p>المثال التالي يعلمك طريقة إظهار <span class="word">Input Dialog</span>.<br>
+	عند النقر على الزر <span class="word">Search</span> سيظهر <span class="word">Input Dialog</span> تطلب من المستخدم إدخال قيمة في <span class="word">Text Field</span>.<br>
+	عند النقر على الزر <span class="word">Select</span> سيظهر <span class="word">Input Dialog</span> تطلب من المستخدم إختيار قيمة من <span class="word">Combo Box</span>.</p>
+	<p><a target="_blank" href="./Swing - الكلاس JOptionPane_files/joptionpane_example_3.PNG"><img src="./Swing - الكلاس JOptionPane_files/joptionpane_example_3.PNG" alt="طريقة إضافة JOptionPane يمثل input dialog في جافا"></a></p>
+	<p><a class="open-page" href="https://harmash.com/swing/swing-joptionpane/example-3.php" target="_blank">شاهد المثال »</a></p>
+</article>
+
+					<div id="bottom_ads" style="height: 200px;"><script async="" src="./Swing - الكلاس JOptionPane_files/f(9).txt"></script><!-- Ad 970 x 90 --><ins class="adsbygoogle" style="display:inline-block;width:970px;height:90px" data-ad-client="ca-pub-1613148428630404" data-ad-slot="5975336166" data-adsbygoogle-status="done" data-ad-status="filled"><ins id="aswift_1_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:970px;background-color:transparent;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_1_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:970px;background-color:transparent;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:970px;height:90px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="970" height="90" frameborder="0" src="./Swing - الكلاس JOptionPane_files/ads(1).html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!2" data-google-query-id="CLT4xbKrwvICFUMe0wodbisDgQ" data-load-complete="true"></iframe></ins></ins></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script><br><script async="" src="./Swing - الكلاس JOptionPane_files/f(9).txt"></script><!-- Ad 970 x 90 --><ins class="adsbygoogle" style="display:inline-block;width:970px;height:90px" data-ad-client="ca-pub-1613148428630404" data-ad-slot="5975336166" data-adsbygoogle-status="done" data-ad-status="filled"><ins id="aswift_2_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:970px;background-color:transparent;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_2_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:970px;background-color:transparent;"><iframe id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;border:0;width:970px;height:90px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="970" height="90" frameborder="0" src="./Swing - الكلاس JOptionPane_files/ads(2).html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!3" data-google-query-id="CI3hyLKrwvICFWEz0wodKtgBkw" data-load-complete="true"></iframe></ins></ins></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+    	        	
+					<div class="next-and-previous-lessons" style="display: block;">
+					    <a class="next-page" href="https://harmash.com/swing/swing-jdialog" style="padding: 0px 25px;">
+					        <span class="next-page-text">الدرس التالي</span><span class="cursor">»</span>
+					    </a>
+					    <a class="previous-page" href="https://harmash.com/swing/swing-jtabbedpane" style="padding: 0px 25px;">
+					        <span class="cursor">»</span><span class="previous-page-text">الدرس السابق</span>
+					    </a>
+					</div>
+    	    	</div><!-- end main -->
+			</div><!-- end container_row -->
+		</div><!-- end container -->
+		
+		<div id="footer">
+
+			<div id="follow_us">
+			    <img class="harmash-logo" src="./Swing - الكلاس JOptionPane_files/harmash-logo.PNG"><br>
+			    <a target="_blank" href="https://twitter.com/harmashcom"><img class="twitter" src="./Swing - الكلاس JOptionPane_files/twitter.PNG"></a>
+			    <a target="_blank" href="https://www.facebook.com/harmashcom"><img class="facebook" src="./Swing - الكلاس JOptionPane_files/facebook.PNG"></a>
+				<a target="_blank" href="http://www.youtube.com/channel/UCoKizUSSJw6Ymu2cpdPtUpA"><img class="youtube" src="./Swing - الكلاس JOptionPane_files/youtube.PNG"></a>
+				<a target="_blank" href="https://telegram.me/harmashcom"><img class="telegram" src="./Swing - الكلاس JOptionPane_files/telegram.PNG"></a>
+			</div>
+
+			<p id="about"> هرمش هو موقع تعليمي مجاني يهتم بعلوم الكمبيوتر و يقدم إليك المعرفة بشكل مبسّط و مفصّل, و هو المكان المناسب لأي شخص يطمح بأن يصبح مبرمجاً محترفاً و مبدعاً في العالم الرقمي.</p>
+			
+			<p class="footer-faq"><a target="_blank" href="http://harmash.com/faq">●&nbsp; الأسئلة الشائعة &nbsp;</a> <a target="_blank" href="http://harmash.com/ads">●&nbsp; أعلن في الموقع &nbsp;</a></p>
+			
+			<p id="developped_by">تم تطوير الموقع و كتابة جميع الدروس من قبل المبرمج<br>
+				<a target="_blank" href="http://harmash.com/MhamadHarmush">● &nbsp; محمد هرموش &nbsp; ●</a></p>
+
+			<div id="donate_for_us">
+			    <p>في حال كنت ترغب بتقديم دعم مادي للموقع, يمكنك التبرع عبر Paypal أو Patreon بالمبلغ الذي تريده</p>
+			    <div>
+			        <a id="paypal_btn" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=JPFDBADGZSTQL&amp;source=url" target="_blank">تبرع عبر Paypal</a>
+			        <a id="patreon_btn" href="https://www.patreon.com/harmashcom" target="_blank">تبرع عبر Patreon</a>
+			    </div>
+			</div>
+
+			<p id="copy_right">جميع الحقوق محفوظة للموقع &nbsp; ٢٠٢٠ - ٢٠١٤ ©<br>
+				<a href="https://www.dmca.com/Protection/Status.aspx?ID=f9112b68-054a-45ee-abf9-9acfad8b5420&amp;refurl=https://harmash.com/swing/swing-joptionpane/" title="DMCA.com Protection Status" class="dmca-badge">
+					<img src="./Swing - الكلاس JOptionPane_files/dmca-badge-w250-5x1-07.png" alt="DMCA.com Protection Status" style="max-width: 142px;">
+				</a>
+				<script src="./Swing - الكلاس JOptionPane_files/DMCABadgeHelper.min.js.download"> </script>
+			</p>
+			
+			<p id="copy_right_details_ar">محتوى الموقع يخضع لرخصة (CC BY-NC-ND 4.0) التي لا تسمح باستخدام الشروحات لأغراض تجارية, إجراء تعديل عليها و نشرها في موقع آخر, وضع الشروحات في تطبيق أو في كتاب إلا في حال أخذ موافقة صريحة من إدارة الموقع.</p>
+			
+			<p id="copy_right_logo">
+				<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+				<img alt="Creative Commons License" style="border-width:0" src="./Swing - الكلاس JOptionPane_files/88x31.png"></a>
+			</p>
+			
+			<p id="copy_right_details_en"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">© 2020 Harmash. All Content is licensed under CC BY-NC-ND 4.0 unless mentioned otherwise.</a></p>
+
+		</div>
+		
+		<div id="library_box" style="max-height: 624px; display: none;">
+		    <h3>دورات</h3>
+<ul>
+    <li style="width: 21%;"><a href="http://harmash.com/learn-typing"><span>»</span>تعلم الطباعة</a></li>
+    <li style="width: 21%;"><a href="http://harmash.com/algorithms"><span>»</span>الخوارزميات</a></li>
+    <li style="width: 21%;"><a href="http://harmash.com/sql"><span>»</span>قواعد البيانات</a></li>
+    <li style="width: 21%;"><a href="http://harmash.com/html"><span>»</span>لغة HTML</a></li>
+    <li style="width: 21%;"><a href="http://harmash.com/python"><span>»</span>لغة بايثون</a></li>
+    <li style="width: 21%;"><a href="http://harmash.com/java"><span>»</span>لغة جافا</a></li>
+    <li style="width: 21%;"><a href="http://harmash.com/cplusplus"><span>»</span>لغة ++C</a></li>
+    <li style="width: 21%;"><a href="http://harmash.com/swing"><span>»</span>جافا Swing</a></li>
+    <li style="width: 21%;"><a href="http://harmash.com/javafx"><span>»</span>جافا FX</a></li>
+    <li style="width: 21%;"><a href="http://harmash.com/algorithms-and-data-structure"><span>»</span>الخوارزميات و هياكل البيانات</a></li>
+    <li style="width: 21%;"><a href="http://harmash.com/quran"><span>»</span>القرآن الكريم و الأذكار</a></li>
+</ul>
+
+<div style="clear:both; padding:20px 0px;"></div>
+
+<h3>أدوات</h3>
+<ul>
+	<li style="width: 21%;"><a href="http://harmash.com/web-editor"><img src="./Swing - الكلاس JOptionPane_files/ic-web-editor.PNG">محرر الويب</a></li>
+	<li style="width: 21%;"><a href="http://harmash.com/color-picker"><img src="./Swing - الكلاس JOptionPane_files/ic-color-picker.PNG">نظام الألوان</a></li>
+	<li style="width: 21%;"><a href="http://harmash.com/units-converter"><img src="./Swing - الكلاس JOptionPane_files/ic-units-converter.PNG">محول الوحدات</a></li>
+	<li style="width: 21%;"><a href="http://harmash.com/ip-analyzer"><img src="./Swing - الكلاس JOptionPane_files/ic-ip-analyzer.PNG">محلل عناوين الشبكات</a></li>
+</ul>
+
+<div style="clear:both; padding:10px 0px;"></div>		</div>
+
+		<div id="search_box" style="max-height: 624px; display: none;"><div id="___gcse_0"><div class="gsc-control-cse gsc-control-cse-ar"><div class="gsc-control-wrapper-cse" dir="rtl"><form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8"><table cellspacing="0" cellpadding="0" class="gsc-search-box"><tbody><tr><td class="gsc-input"><div class="gsc-input-box" id="gsc-iw-id1"><table cellspacing="0" cellpadding="0" id="gs_id50" class="gstl_50 gsc-input" style="width: 100%; padding: 0px;"><tbody><tr><td id="gs_tti50" class="gsib_a"><input autocomplete="off" type="text" size="10" class="gsc-input" name="search" title="بحث" id="gsc-i-id1" dir="rtl" spellcheck="false" style="width: 100%; padding: 0px; border: none; margin: 0px; height: auto; background: url(&quot;https://www.google.com/cse/static/images/1x/ar/branding.png&quot;) right center no-repeat rgb(255, 255, 255); outline: none;"></td><td class="gsib_b"><div class="gsst_b" id="gs_st50" dir="rtl"><a class="gsst_a" href="javascript:void(0)" title="محو نص مربع البحث" role="button" style="display: none;"><span class="gscb_a" id="gs_cb50" aria-hidden="true">×</span></a></div></td></tr></tbody></table></div></td><td class="gsc-search-button"><button class="gsc-search-button gsc-search-button-v2"><svg width="13" height="13" viewBox="0 0 13 13"><title>بحث</title><path d="m4.8495 7.8226c0.82666 0 1.5262-0.29146 2.0985-0.87438 0.57232-0.58292 0.86378-1.2877 0.87438-2.1144 0.010599-0.82666-0.28086-1.5262-0.87438-2.0985-0.59352-0.57232-1.293-0.86378-2.0985-0.87438-0.8055-0.010599-1.5103 0.28086-2.1144 0.87438-0.60414 0.59352-0.8956 1.293-0.87438 2.0985 0.021197 0.8055 0.31266 1.5103 0.87438 2.1144 0.56172 0.60414 1.2665 0.8956 2.1144 0.87438zm4.4695 0.2115 3.681 3.6819-1.259 1.284-3.6817-3.7 0.0019784-0.69479-0.090043-0.098846c-0.87973 0.76087-1.92 1.1413-3.1207 1.1413-1.3553 0-2.5025-0.46363-3.4417-1.3909s-1.4088-2.0686-1.4088-3.4239c0-1.3553 0.4696-2.4966 1.4088-3.4239 0.9392-0.92727 2.0864-1.3969 3.4417-1.4088 1.3553-0.011889 2.4906 0.45771 3.406 1.4088 0.9154 0.95107 1.379 2.0924 1.3909 3.4239 0 1.2126-0.38043 2.2588-1.1413 3.1385l0.098834 0.090049z"></path></svg></button></td><td class="gsc-clear-button"><div class="gsc-clear-button" title="محو النتائج">&nbsp;</div></td></tr></tbody></table></form><div class="gsc-results-wrapper-overlay"><div class="gsc-results-close-btn" tabindex="0"></div><div class="gsc-positioningWrapper"><div class="gsc-tabsAreaInvisible"><div aria-label="refinement" role="tab" class="gsc-tabHeader gsc-inline-block gsc-tabhActive">البحث المخصّص</div><span class="gs-spacer"> </span></div></div><div class="gsc-positioningWrapper"><div class="gsc-tabsAreaInvisible"></div></div><div class="gsc-above-wrapper-area-invisible"><table cellspacing="0" cellpadding="0" class="gsc-above-wrapper-area-container"><tbody><tr><td class="gsc-result-info-container"><div class="gsc-result-info-invisible"></div></td><td class="gsc-orderby-container"><div class="gsc-orderby-invisible"><div class="gsc-orderby-label gsc-inline-block">الترتيب حسب:</div><div class="gsc-option-menu-container gsc-inline-block"><div class="gsc-selected-option-container gsc-inline-block"><div class="gsc-selected-option">Relevance</div><div class="gsc-option-selector"></div></div><div class="gsc-option-menu-invisible"><div class="gsc-option-menu-item gsc-option-menu-item-highlighted"><div class="gsc-option">Relevance</div></div><div class="gsc-option-menu-item"><div class="gsc-option">Date</div></div></div></div></div></td></tr></tbody></table></div><div class="gsc-adBlockInvisible"></div><div class="gsc-wrapper"><div class="gsc-adBlockInvisible"></div><div class="gsc-resultsbox-invisible"><div class="gsc-resultsRoot gsc-tabData gsc-tabdActive"><div><div class="gsc-expansionArea"></div></div></div></div></div></div><div class="gsc-modal-background-image" tabindex="0"></div></div></div></div></div>
+		
+		<div id="ads_alert">
+		    <div class="white-container">
+		        <div>
+		            <a class="ads-close-btn" id="ads_close_btn_1">إخفاء الرسالة</a>
+		        </div>
+		        <div class="red-box">
+		            <h3>من فضلك إسمح لنا بعرض الإعلانات</h3>
+		            <p>أي قم بإيقاف مانع الإعلانات <b>(Ad Block)</b> عن موقعنا</p>
+		        </div>
+		        <div class="green-box">
+		            <h3>سبب عرض الإعلانات في الموقع</h3>
+		            <p>بالنسبة لك فإن عرض الإعلانات في الموقع لا يكلفك أي شيء و لا يضايقك إطلاقاً لأننا لا نعرض إعلانات
+		                منبثقة بشكل مفاجئ أو بشكل مخادع ضمن الشرح.</p>
+		            <p> بالنسبة لنا فإنه الطريقة الوحيدة التي تمكننا من إبقاء الموقع متاح بشكل مجاني للجميع لأن عرض
+		                الإعلانات
+		                يساعدنا في تغطية تكاليف الإستضافة التي يجب دفعها بشكل دائما حتى لا يتم إيقاف الموقع.</p>
+		        </div>
+		        <div class="blue-box">
+		            <h3>طريقة إيقاف مانع الإعلانات</h3>
+		            <p>إذا كنت لا تعرف كيف توقف مانع الإعلانات <b>(Ad Block)</b> إبحث في
+		                جوجل أو يوتيوب عن <span class="word">"How to disable adblock"</span> و سيظهر لك خطوات بسيطة جداً
+		                لفعل ذلك.</p>
+		            <p style="margin-top: 10px;">نتمنى أن تستفيدوا من موقعنا و أن نقدم لكم مزيد من الدورات المجانية و
+		                نعتذر لإزعاجكم بهذا الطلب.
+		            </p>
+		        </div>
+		        <div>
+		            <a class="ads-close-btn" id="ads_close_btn_2">إخفاء الرسالة</a>
+		        </div>
+		    </div>
+		</div>
+
+		<script type="text/javascript" src="./Swing - الكلاس JOptionPane_files/MooTools-Core-1.6.0.min.js.download"></script>
+		<script type="text/javascript" src="./Swing - الكلاس JOptionPane_files/EnlighterJS.min.js.download"></script>
+	
+
+<div id="copySnackBar">تم نسخ الكود</div><div><div style="display: none; position: fixed; top: 30px; width: auto; max-width: 100%; text-align: center; left: 50%; transform: translateX(-50%); z-index: 99999999;"><div style="display: inline-block; font-size: 14px; font-weight: bold; border: 1px solid rgb(240, 195, 109); background-color: rgb(249, 237, 190); padding: 0px 10px; border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;"></div></div></div><table cellspacing="0" cellpadding="0" class="gstl_50 gssb_c" style="width: 2px; display: none; top: 3px; position: absolute; left: -1px;"><tbody><tr><td class="gssb_f"></td><td class="gssb_e" style="width: 100%;"></td></tr></tbody></table><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><ins id="aswift_3_expand" style="display:inline-table;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_3_anchor" style="display:block;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;"><iframe id="aswift_3" name="aswift_3" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" src="./Swing - الكلاس JOptionPane_files/ads(3).html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!4" data-load-complete="true"></iframe></ins></ins></ins><iframe id="google_osd_static_frame_9387291434595" name="google_osd_static_frame" __idm_frm__="227" style="display: none; width: 0px; height: 0px;" src="./Swing - الكلاس JOptionPane_files/saved_resource(1).html"></iframe><iframe src="./Swing - الكلاس JOptionPane_files/aframe.html" width="0" height="0" style="display: none;"></iframe></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration><iframe id="google_esf" name="google_esf" src="./Swing - الكلاس JOptionPane_files/zrt_lookup.html" style="display: none;"></iframe></html>

@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1625427697 source:d:\the works\cpp projects\barmej\user_class\user_class\main.cpp
+	"User.h"
+	"functions.h"
+
+1625422301 source:d:\the works\cpp projects\barmej\user_class\user_class\src\user.cpp
+	"User.h"
+
+1625422301 d:\the works\cpp projects\barmej\user_class\user_class\include\user.h
+	<iostream>
+
+1625428128 source:d:\the works\cpp projects\barmej\user_class\user_class\functions.cpp
+	"functions.h"
+
+1625427908 d:\the works\cpp projects\barmej\user_class\user_class\functions.h
+	"User.h"
+	<fstream>
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Lists - UL, OL, DL </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--
+            ul      => Unordered List (قائمة غير مرتبة)
+            li      => List item
+        -->
+        <ul>
+            <li>Html</li>
+            <li>Css</li>
+            <li>JavaScript</li>
+        </ul>
+        <!-- وممكن نعمل قائمة بداخل قائمة -->
+        <ul>
+            <li>Html</li>
+            <li>Css</li>
+            <li>
+                JavaScript
+                <ul>
+                    <li>Reactjs</li>
+                    <li>Vuejs</li>
+                </ul>
+            </li>
+        </ul>
+
+        <!-- Separator -->
+        <!--
+            ol    => Ordered List
+            li    => List item
+        -->
+        <ol>
+            <li>Name</li>
+            <li>Address</li>
+            <li>ID</li>
+        </ol>
+        <!--
+            ........ Ol Attributes ........
+            reversed    => Reverse the ordering
+            start       => Start from position
+            type        => Ordering type (1, a, A, i, I)
+        -->
+        <!-- reversed وممكن نعكس ترتيب القائمة عن طريق الخاصية -->
+        <ol reversed>
+            <li>Name</li>
+            <li>Address</li>
+            <li>ID</li>
+        </ol>
+        <!-- start وممكن نحد القيمة اللي هايبدأ بيها الترتيب عن طريق الخاصية -->
+        <ol start="100">
+            <li>Name</li>
+            <li>Address</li>
+            <li>ID</li>
+        </ol>
+        <!--
+            type وممكن نغير نوع الترتيب عن طريق
+            واللي بتاخد 
+            1: This is the default value. It defines the list items in decimal number.(1, 2, 3, 4 .).
+            a: It defines the list items in alphabetically ordered lowercase letters .(a, b, c, d …)
+            A: It defines the list items in alphabetically ordered uppercase letters.(A, B, C, D ..)
+            i: It defines the list items in lowercase roman number order.(i, ii, iii, iv, v, vi …)
+            I: It defines the list items in uppercase roman number order.(I, II, III, IV, V, VI ..) 
+        -->
+        <ol type="A">
+            <li>Name</li>
+            <li>Address</li>
+            <li>ID</li>
+        </ol>
+
+        <!-- Separator -->
+        <!--
+            dl      => Description List (قائمة مصطلحات)
+            dt      => Term (مصطلح)
+            dd      => Description of the term
+        -->
+        <dl>
+            <dt>Html</dt>
+            <dd>Hypertext Markup language</dd>
+            <dt>Css</dt>
+            <dd>Cascading Style Sheets</dd>
+        </dl>
+    </body>
+</html>

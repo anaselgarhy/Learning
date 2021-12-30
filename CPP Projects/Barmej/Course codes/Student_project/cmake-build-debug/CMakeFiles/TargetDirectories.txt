@@ -1,0 +1,3 @@
+D:/The works/CPP Projects/Barmej/Student_project/cmake-build-debug/CMakeFiles/Student_project.dir
+D:/The works/CPP Projects/Barmej/Student_project/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/The works/CPP Projects/Barmej/Student_project/cmake-build-debug/CMakeFiles/rebuild_cache.dir

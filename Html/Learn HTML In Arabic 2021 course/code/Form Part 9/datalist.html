@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Part 9 - Data List</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--
+            لو عايز اعمل حقل شبيه بالسليكت مع امكانية ان اليوزر يبحث في القيم بتعته بستعمل اللست
+            list="nameOfList"
+            وهنا بحتاج داتا لست علشان اليوزر يختار منها وعلشان اعرفها بستعمل تاج
+            <datalist>
+            وهنا لازم نخلي بالنا من حتة وهيا اننا ندي للداتا لست اي دي بنفس القيمة اللي حطيناها في الخاصية لست
+            وعلشان اضيف العناصر للداتا لست بستعمل تاج
+            <option>
+            وبديه الفاليو بس
+        -->
+        <form action="" method="GET">
+            <label for="listData">Chose language</label>
+            <input list="languages" id="listData" name="language">
+            <datalist id="languages">
+                <option value="C" />
+                <option value="c++" />
+                <option value="Java" />
+                <option value="Kotlin" />
+                <option value="Lua" />
+            </datalist>
+            <br>
+            <input type="submit">
+        </form>
+        <!--
+            وممكن ابعت قيمة مش موجودة في الداتا لست عادي
+        -->
+        <hr>
+
+        <!--
+            ومعلومة ما اتقالتش في الدورة 
+            انت ممكن تكتب التايب عادي جدا وساعتها داتا لست بتبقا عمله زي الاقتراحات كدة
+        -->
+        <form action="" method="GET">
+            <div>
+                <div>
+                    <label for="firstname">Firstname</label>
+                    <br>
+                    <input type="text" list="names" id="firstname" name="firstname">
+                </div>
+                <br>
+                <div>
+                    <label for="lastname">lastname</label>
+                    <br>
+                    <input type="text" list="names" id="lastname" name="lastname">
+                </div>
+                <datalist id="names">
+                    <option value="Anas" />
+                    <option value="Ahmed" />
+                    <option value="Mohamed" />
+                    <option value="Elgarhy" />
+                </datalist>
+            </div>
+            <div>
+                <label for="fvcolor">Fivrote color</label>
+                <input type="color" list="colors" name="fivroteColor" id="fvcolor">
+                <datalist id="colors">
+                    <option value="#03A9F4" />
+                    <option value="#212121" />
+                    <option value="#D32F2F" />
+                    <option value="#757575" />
+                </datalist>
+            </div>
+            <input type="submit">
+        </form>
+    </body>
+</html>

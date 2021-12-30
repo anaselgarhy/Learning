@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Pre_programming.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Pre_programming.dir/objects.a @CMakeFiles\Pre_programming.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Pre_programming.dir/objects.a -Wl,--no-whole-archive  -o Pre_programming.exe -Wl,--out-implib,libPre_programming.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Pre_programming.dir\linklibs.rsp

@@ -1,0 +1,6 @@
+div {
+    background-color: #DDD;
+    width: 300px;
+    border: 10px solid red;
+    outline: 10px solid blue;
+}

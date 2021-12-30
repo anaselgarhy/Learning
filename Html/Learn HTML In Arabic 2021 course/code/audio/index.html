@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Audio(audio)</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--
+            لو عايز اضيف ملف صوت في الصفخة بستعمل تاج
+            audio
+            وبحط مساراو رابط الملف في الخاصية
+            src
+        -->
+        <audio src="./media/52. Ryan Thistlebeck, Rainy - Getaway (Nightcore Mix).mp3"></audio>
+
+        <!--
+            ولازم استعمل الخاصية
+            controls
+            علشان اظهر عناصر التحكم ومن غيرها مش هايظهر في الصفحة  في ملف صوت اصلا
+        -->
+        <audio src="./media/52. Ryan Thistlebeck, Rainy - Getaway (Nightcore Mix).mp3" controls></audio>
+        <hr/>
+
+        <!--
+            بس الطريقة اللي فوق فيها عيب، ان لو المتصفح لو مش بيدعم الصيغة اللي انت حاططها مش هايشغل الملف ودي مشكلة
+            src وحلها انا مانستعملش الخاصية
+            واللي ليه خاصيتين اساسيتين وهما <source> ونستعمل التاج
+            src: مسار الملف الصوتي
+            type: mime typeنوع الملف وبنكتبة بصيغة ال
+            وهنا بنقدر نحط اكتر من ملف لنفس المعلوة بس بصيغ مختلفة والمتصفح بيشغل الصية اللي بيدعها
+        -->
+        <audio controls>
+            <source src="./media/52. Ryan Thistlebeck, Rainy - Getaway (Nightcore Mix).mp3" type="audio/mpeg">
+            <source src="./media/52. Ryan Thistlebeck, Rainy - Getaway (Nightcore Mix).wav" type="audio/wav">
+            <source src="./media/52. Ryan Thistlebeck, Rainy - Getaway (Nightcore Mix).ogg" type="audio/ogg">
+        </audio>
+        <hr/>
+
+        <!--
+            ومع ذالك لسة في متصفحات عايشة في العصر الحجري ومش بتدعم الاوديو تاج فا يستحسن نحط عبارة تقول للمستخدم كدة علشان
+            ما يفتكرش ان العيب من الموقع
+        -->
+        <audio controls>
+            <source src="./media/52. Ryan Thistlebeck, Rainy - Getaway (Nightcore Mix).mp3" type="audio/mpeg">
+            <source src="./media/52. Ryan Thistlebeck, Rainy - Getaway (Nightcore Mix).wav" type="audio/wav">
+            <source src="./media/52. Ryan Thistlebeck, Rainy - Getaway (Nightcore Mix).ogg" type="audio/ogg">
+            Your browser not support audio tag!
+        </audio>
+        <hr/>
+
+        <!--
+            وممكن استعمل خاصية
+            autoplay
+            علشان اخل الملف يشتغل تلقائيا اول ما الصفحة تفتح، بس الخاصية دي معمول ليها بلوك حاليا في كروم
+            هوا مش بلوك نهائي بس علشان يمنعو الاسبام فا الملف بيشتغل اول ما تفتح الصفحة عادي اوتو لاكن لو عملت ريفريش مش هايشتغل
+        -->
+        <audio controls autoplay>
+            <source src="./media/52. Ryan Thistlebeck, Rainy - Getaway (Nightcore Mix).mp3" type="audio/mpeg">
+            <source src="./media/52. Ryan Thistlebeck, Rainy - Getaway (Nightcore Mix).wav" type="audio/wav">
+            <source src="./media/52. Ryan Thistlebeck, Rainy - Getaway (Nightcore Mix).ogg" type="audio/ogg">
+            Your browser not support audio tag!
+        </audio>
+        <hr/>
+
+        <!--
+            وممكن استعمل الخاصية لوب
+            loop
+            علشان اخلي الملف يتكرر
+        -->
+        <audio controls loop>
+            <source src="./media/52. Ryan Thistlebeck, Rainy - Getaway (Nightcore Mix).mp3" type="audio/mpeg">
+            <source src="./media/52. Ryan Thistlebeck, Rainy - Getaway (Nightcore Mix).wav" type="audio/wav">
+            <source src="./media/52. Ryan Thistlebeck, Rainy - Getaway (Nightcore Mix).ogg" type="audio/ogg">
+            Your browser not support audio tag!
+        </audio>
+        <hr/>
+
+        <!--
+            وممكن استعمل الخاصية ميوتد
+            muted
+            علشان اخلي الملف صامت افترضيا
+            ويستحسن دايما استعمل الخاصية دي مع الاتو بلاي(التشغيل التلقائي)علشان اليوزر ما يتفاجئش لو كان الصوت عالي
+            وملحوظة لو خليت المف ميوت جوجل هايسمح انو يشتغل تلقائيا مهما اليوزر عمل ريفريش
+        -->
+        <audio controls loop muted>
+            <source src="./media/52. Ryan Thistlebeck, Rainy - Getaway (Nightcore Mix).mp3" type="audio/mpeg">
+            <source src="./media/52. Ryan Thistlebeck, Rainy - Getaway (Nightcore Mix).wav" type="audio/wav">
+            <source src="./media/52. Ryan Thistlebeck, Rainy - Getaway (Nightcore Mix).ogg" type="audio/ogg">
+            Your browser not support audio tag!
+        </audio>
+    </body>
+</html>

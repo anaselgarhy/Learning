@@ -1,0 +1,28 @@
+.one {
+    color: yellowgreen;
+    border-bottom: 2px solid yellowgreen;
+}
+
+.two {
+    color: green;
+    border-bottom: 2px solid green;
+}
+
+.three {
+    color: tomato;
+    border-bottom: 2px solid tomato;
+}
+
+.four {
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.one,
+.two,
+.three,
+.four {
+    padding: 15px;
+    margin: 12px 0;
+    background-color: #DEDEDE;
+}

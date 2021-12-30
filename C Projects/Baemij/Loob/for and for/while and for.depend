@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1600098007 source:c:\users\xpana\desktop\loob\while and for\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

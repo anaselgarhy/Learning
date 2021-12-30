@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Part 9 - Novalidate, Target</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--
+            لو عايز اطل التحقق من االشروط في الفورم بستعمل خاصية
+            novalidate
+            وعادة بستعملها في مرحلة التيستنج
+        -->
+        <form action="" method="GET" novalidate>
+            <input type="email" name="email" placeholder="Your email" required>
+            <br>
+            <input type="password" name="pass" placeholder="Password" required>
+            <br>
+            <input type="submit">
+        </form>
+        <hr>
+
+        <!--
+            ولو عايز احدد الصفحة اللي هاتتبعت فيها الداتا تتفتح فين بستعمل تارجيت زي الانكر برضو
+            target
+            وعادة بستعملها اثناء الاختبار علشان ما اطرش اكتب البيانات كذا مرة
+        -->
+        <form action="" method="GET" target="_blank">
+            <input type="email" name="email" placeholder="Your email" required>
+            <br>
+            <input type="password" name="pass" placeholder="Password" required>
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>

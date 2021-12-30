@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1602101670 source:c:\users\xpana\desktop\c projects\static\1\1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"myFunc.h"
+
+1602101576 c:\users\xpana\desktop\c projects\static\1\1\myfunc.h
+
+1602103794 c:\users\xpana\desktop\c projects\static\1\1\myfunc.c
+

@@ -1,0 +1,19 @@
+/* Bad */
+.USERNAME {
+}
+
+/* Bad */
+.UserName {
+}
+
+/* Good */
+.user-name {
+}
+
+/* Good */
+.userName {
+}
+
+/* Bad */
+.usernameprofile {
+}

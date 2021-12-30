@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Part 6 - Radio And Checkbox</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--
+            لو عايز اخلي المستخدم يختار خيار واحد من مجموعة خيارات بستعمل عنصر
+            type="radio"
+            وهنا لازم اخلي بالي من حاجة وهيا اني اخلي كل مجموعة مرتبطة مع بعض بنفس الاسم علشان المتصفح يفهم اني مش عايز
+            اليوزر يختار اكتر من واحد منهم
+            واني لازم اديهم فاليو علشان هيا اللي هاتتبعت
+        -->
+        <form action="" method="GET">
+            <input type="radio" name="os" value="Windows">
+            <br>
+            <input type="radio" name="os" value="Linux">
+            <br>
+            <input type="radio" name="os" value="MacOS">
+            <br>
+            <input type="submit">
+        </form>
+        <hr>
+
+        <!--
+            بس فوق زي ما انت شوفت اليوزر مش هايفهم معني الراديوز دي
+            ومش هايعرف مكان الخيار اللي هوا عايزة الا لو كان يوزر هاكر وشاف الكود
+            وعلشان كدة لازم نحط ليبل بعد كل راديو علشان نعرف اليوزر الراديوو دي بتدل عي ايه
+            ويستحسن نربط الليبل بالزر علشان لما اليوزر يدوس علي الكلمة الموضوع يسمع عند العنصر المربوط بيها
+            وبنربطه ب فور
+            for
+            واللي بتاخد الايدي بتاع حقل الادخال اللي عايز تربط الليبل بيه
+            ومن العادات البرمجية الجيدة اننا نحط الليبل تحت الرديو بوتن
+        -->
+        <form action="" method="GET">
+            <div>
+                <!--
+                    وبنستعمل خاصية
+                    checked
+                    علشان نخلي عنصر مختار باي ديفلت
+                -->
+                <input type="radio" id="win" name="os" value="Windows" checked>
+                <label for="win">Windows</label>
+            </div>
+            <br>
+            <div>
+                <input type="radio" id="linux" name="os" value="Linux">
+                <label for="linux">Linux</label>
+            </div>
+            <br>
+            <div>
+                <input type="radio" id="mac" name="os" value="MacOS">
+                <label for="mac">MacOS</label>
+            </div>
+            <br>
+            <input type="submit">
+        </form>
+        <hr>
+
+        <!--
+            ولو عايزين نخلي اليوزر يختار اكتر من قيمة محددين مسبقا بستعملل الاتشيك بوكس
+            type="checkbox"
+            ويستحسن نربطهم بليبل برضو علشان اليوزر ما يتهش مننا
+            بس هنا في اختلاف بسيط 
+            انت مش المفترض تديهم نفس الاسم ومش لازم تديهم قيمة مجرد هاتديهم اسم معبر بس واول ما اليوزر يختار شوية ويبعت
+            هايتبعت اسمائهم وقيمتهم اون اما لو ما اخترش خاجة منهم ممش هاايتبعت حاجة
+        -->
+        <form action="" method="GET">
+            <div>
+                <input type="checkbox" id="lang1" name="java">
+                <label for="lang1">Java</label>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="lang2" name="c">
+                <label for="lang2">C</label>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="lang3" name="cpp">
+                <label for="lang3">C++</label>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="lang4" name="lua">
+                <label for="lang4">Lua</label>
+            </div>
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Part 7(ii) - Textarea</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--
+            لو عايز اخلي اليوزر يدخل نص مكون من عدة اسطر بستعمل تاج
+            <textarea>
+            وده من العناصر القليلة اللي بنستعملها في الفورم وليها قفلة
+        -->
+        <form action="" method="GET">
+            <label for="mess">Message</label>
+            <br>
+            <textarea id="mess" name="message" placeholder="Write your message"></textarea>
+            <br>
+            <input type="submit">
+        </form>
+        <hr>
+
+        <!--
+            وفي بعض الخصائص اللطيفة اللي بتخلينا نحدد جم التكست اريا وهيا
+            rows          => عدد الاسطر
+            cols          => عدد الاعمدة
+        -->
+        <form action="" method="GET">
+            <label for="message">Message</label>
+            <textarea rows="20" cols="50" id="message" name="message"></textarea>
+            <br>
+            <input type="submit">
+        </form>
+        <hr>
+
+        <!--
+            ولو عايزين نكتب كلام في التيكس اريا بنكتبة بين تاج الفتح والقفل
+        -->
+        <form action="" method="GET">
+            <label for="message">Message</label>
+            <textarea rows="5" cols="35" id="message" name="message">
+It was a dark and stormy night...
+            </textarea>
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>

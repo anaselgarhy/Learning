@@ -1,0 +1,3 @@
+D:/The works/C Projects/Pre-programming/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/The works/C Projects/Pre-programming/cmake-build-debug/CMakeFiles/Pre_programming.dir
+D:/The works/C Projects/Pre-programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir

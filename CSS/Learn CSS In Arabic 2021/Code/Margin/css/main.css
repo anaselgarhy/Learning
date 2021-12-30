@@ -1,0 +1,8 @@
+div {
+    background-color: #DDD;
+    width: 70%;
+    padding: 10px;
+    margin: 20px; /* 20px 20px 20px 20px */
+    margin: auto;
+    margin-left: auto;
+}

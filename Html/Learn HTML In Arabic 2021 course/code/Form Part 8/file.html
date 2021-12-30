@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Part 8 - File</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--
+            لو عاايز اخلي اليوزر  يرفع ملف بستعمل
+            type="file"
+        -->
+        <form action="" method="GET">
+            <label for="uploadImage">Upload your img</label>
+            <input type="file" name="img" id="uploadImage">
+            <br>
+            <input type="submit">
+        </form>
+        <hr>
+        <!--
+            ولو عايز اسمح لليوزر انو يرفعع كتر من ملف بستعمل الخاصية
+            multiple
+        -->
+        <form action="" method="GET">
+            <label for="upload">Upload files</label>
+            <input type="file" name="files" id="upload" multiple>
+            <br>
+            <input type="submit">
+        </form>
+        <hr>
+
+        <!--
+            ولو عايز احدد نوع الملفات اللي مسموح لليوزر يرفعها بستعمل خاصيه
+            accept
+            بتاع الملفات اللي انا عايز اسمح لليوزر انو يرفعها mime type واللي بتاخد ال
+        -->
+        <form action="" method="GET">
+            <label for="video">Upload video(mp4 only)</label>
+            <input type="file" name="video" id="video" accept="video/mp4">
+            <br>
+            <input type="submit">
+        </form>
+        <hr>
+
+        <!--
+            بفاصلة mime types ولو عايز احدد اكتر من صيغة بفصل بين ال
+        -->
+        <form action="" method="GET">
+            <label for="media">Upload media file(mp4 or mp3 file)</label>
+            <input type="file" name="files" id="media" accept="video/mp4, audio/mpeg">
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>

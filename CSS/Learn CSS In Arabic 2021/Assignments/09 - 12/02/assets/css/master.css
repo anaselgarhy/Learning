@@ -1,0 +1,24 @@
+.div-1,
+.div-2,
+.div-3 {
+    background-color: rgba(85, 85, 85, 0.185);
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent;
+    width: 400px;
+    margin: 10px auto;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.div-1 {
+    border-left-color: red;
+}
+
+.div-2 {
+    visibility: hidden;
+}
+
+.div-3 {
+    border-left-color: green;
+}

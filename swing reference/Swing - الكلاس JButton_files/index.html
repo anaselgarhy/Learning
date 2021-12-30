@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<!-- saved from url=(0089)https://s0.2mdn.net/sadbundle/190361916131573001/AMER_CONVB_REG_FEBEXAM_728x90/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      
+      <meta name="ad.size" content="width=728,height=90">
+      <meta name="viewport" content="width=device-width">
+      <title></title>
+      <script src="./tweenmax_2.0.1_min.js.download"></script>
+      <script>
+         var clickTag="http://www.google.com";
+      </script>
+      <style>
+         body, html{margin:0; padding:0;}
+         #wrapper{width:728px; height:90px; overflow:hidden; background:#ffffff; position:relative;}
+         #clickArea{display:block; width:726px; height:88px; border:1px solid #cccccc; z-index:1000; cursor:pointer; position:absolute;}
+         .center {left:0; right:0; margin:0 auto;}
+         /*START TEXT*/
+         @font-face {
+         font-family: 'CFABreuerTextWebBold';
+         src: url('fonts/cfabreuertextweb-bold.woff') format('woff');
+         font-weight: normal;
+         font-style: normal;
+         }
+         @font-face {
+         font-family: 'CFABreuerTextWebRegular';
+         src: url('fonts/cfabreuertextweb-regular.woff') format('woff');
+         font-weight: normal;
+         font-style: normal;
+         }
+         /*START MAIN*/
+         #logo {
+         position: absolute;
+         padding: 0; /*don't change*/
+         max-width:159px; 
+         max-height:35px;
+         top:165px;
+	 left: 400px;
+         }
+         #main {
+         position: absolute;
+         top: 0;
+         left: 20px;
+         width: 260px; 
+         text-align: left;       
+         }
+         .text {
+         font-family: 'CFABreuerTextWebBold', Franklin Gothic Medium, Franklin Gothic, ITC Franklin Gothic, Arial, sans-serif;
+         font-size: 22px;
+         line-height: 1.14;
+         color: #003da5;
+         }
+         #txt1, #txt2 {
+         position: absolute;
+         width: 728px;
+         left: 20px;
+         top: 27px;
+         overflow: hidden;
+         }
+         #txt1 {
+         padding-top: 0; /*don't change*/
+         }
+         #txt2 {
+         padding-top: 0; /*don't change*/
+         }
+         #cta {
+         position: absolute;
+         top: 500px;
+         left: 10px;
+         font-family: 'CFABreuerTextWebRegular', Franklin Gothic Medium, Franklin Gothic, ITC Franklin Gothic, Arial, sans-serif;
+         color: #ffffff;
+/*         font-size: 12px;
+         background: #003da5;*/
+         padding: 4px 10px 5px;
+         text-decoration: none;
+         }
+         .green {
+         color: #76bc21;  
+         }
+         .orange {
+         color: #ffa400;    
+         }
+         .blue {
+         color: #00b3e3;    
+         }
+         .navy-blue {
+         color: #003da5;
+         }
+         .white {
+         color: #ffffff;
+         }
+         /*END MAIN*/
+         /*START FOOTER*/
+         #footer {
+         position: absolute;
+         bottom: 0;
+         left: 20px;
+         width: 728px;
+         }
+         #legal {
+         padding-bottom: 5px; /*don't change*/
+         width: 300px;
+         font-family: sans-serif;
+         font-size: 8px;
+         line-height: 1.1;
+         color: #ffffff;
+         }
+         /*END FOOTER*/
+         sup {  
+         line-height: 0;    
+         position: relative;    
+         top: 0;    
+         font-size: 50%;    
+         font-family: 'CFABreuerTextWebRegular', Franklin Gothic Medium, Franklin Gothic, ITC Franklin Gothic, Arial, sans-serif;   
+         }      
+         .period-tuck{  
+         left: -2%; 
+         }        
+         /*ILLUSTRATION*/
+         #art-container {
+         position: absolute;
+         width: 300px;
+         height: 600px;
+         top: 0;
+         left: 0;
+         }
+         #main-img {
+         position: absolute;
+         width: 300px;
+         top: 0;
+         left: 0;
+         }
+         .mask {
+         overflow: hidden;
+         }
+      </style>
+      <!--[if IE 6]>  
+      <style> 
+         #logo { 
+         display:none;  
+         }  
+      </style>
+      <![endif]-->  
+      <!--[if IE 7]>  
+      <style> 
+      </style>
+      <![endif]-->  
+      <!--[if IE 8]>  
+      <style> 
+      </style>
+      <![endif]-->  
+      <!--[if IE 9]>  
+      <style> 
+      </style>
+      <![endif]-->
+   <script type="text/javascript">
+    
+  (function() {
+    var MAX_URL_PARAM_LENGTH = 34;
+    var CLICK_X_URL_KEY = 'nx';
+    var CLICK_Y_URL_KEY = 'ny';
+    var CREATIVE_DIMENSIONS_KEY = 'dim';
+    var AD_URL_PARAM = '&adurl=';
+
+    var relegateNavigation = '';
+    var urlParamMap = {};
+
+    urlParamMap[CLICK_X_URL_KEY] = null;
+    urlParamMap[CLICK_Y_URL_KEY] = null;
+    urlParamMap[CREATIVE_DIMENSIONS_KEY] = null;
+
+    var handleClickTagMessage = function(e) {
+      try {
+        var eventData = JSON.parse(e.data);
+      } catch (err) {
+        return;
+      }
+      if (eventData.isInitClickTag) {
+        if (eventData.clickTags) {
+          for (var i = 0; i < eventData.clickTags.length; i++) {
+            var clkTag = eventData.clickTags[i];
+            window[clkTag.name] = clkTag.url;
+          }
+        } else if (eventData.clickTag) {
+          window.clickTag = eventData.clickTag;
+        }
+        relegateNavigation = eventData.relegateNavigation;
+      }
+    };
+
+    var storeClickCoordinates = function(e) {
+      urlParamMap[CLICK_X_URL_KEY] = Math.round(e.clientX);
+      urlParamMap[CLICK_Y_URL_KEY] = Math.round(e.clientY);
+    };
+
+    var getCreativeDimensions = function() {
+      return window.innerWidth + 'x' + window.innerHeight;
+    }
+
+    var getExitClickParams = function(e) {
+      urlParamMap[CREATIVE_DIMENSIONS_KEY] = getCreativeDimensions();
+
+      var exitParams = '';
+      for (var key in urlParamMap) {
+        exitParams += '&' + key + '=';
+        if (urlParamMap[key] !== null) {
+          exitParams += urlParamMap[key];
+        }
+      }
+      return exitParams;
+    }
+
+    var appendExitClickParams = function(url) {
+      var adUrlIndex = url.toLowerCase().indexOf(AD_URL_PARAM);
+      var paramsToBeAdded = getExitClickParams();
+      if (adUrlIndex > -1 && paramsToBeAdded.length <= MAX_URL_PARAM_LENGTH) {
+        url = url.substr(0, adUrlIndex) + paramsToBeAdded +
+          url.substr(adUrlIndex);
+      };
+      return url;
+    };
+
+    if (open.call) {
+      window.open = function(open) {
+        return function(url, name, features) {
+          url = appendExitClickParams(url);
+          if (relegateNavigation === 'parent') {
+            var message = {'clickTag': url, 'isPostClickTag': true};
+            parent.postMessage(JSON.stringify(message), '*');
+          } else {
+            var args = [url, name];
+            if (features) {
+              args.push(features);
+            }
+            open.apply(window, args);
+          }
+        };
+      }(window.open);
+    }
+
+    if (window.addEventListener) {
+      window.addEventListener(
+          'message', handleClickTagMessage, false);
+      window.addEventListener('mousedown', storeClickCoordinates, true);
+    } else {
+      window.attachEvent('onmessage', handleClickTagMessage);
+    }
+  })();
+    
+  </script></head>
+   <body data-new-gr-c-s-check-loaded="14.1024.0" data-gr-ext-installed="">
+      <script>
+         //set #content to invisible
+         TweenLite.set("#content", {
+             visibility: "none"
+         });
+      </script>
+      <div id="wrapper" style="background: rgb(89, 73, 167);">
+         <a href="javascript:void(window.open(window.clickTag, &#39;_blank&#39;))" id="clickArea"></a>
+         <!--html elements/sprites go here-->
+         <div id="content" style="visibility: visible;">
+            <div id="art-container">
+               <img id="main-img" src="./main.jpg" style="width: 728px; top: 0px; left: 0px;">
+            </div>
+            <div id="txt1" class="text" style="top: 18px; opacity: 0;"><div class="mask"><div id="line1_1" class="hide-line-1 orange" style="font-size: 22px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Register for the</div></div><div class="mask"><div id="line1_2" class="hide-line-1 orange" style="font-size: 22px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Level I CFA<sup>®</sup> exam.</div></div></div>
+            <div id="txt2" class="text" style="top: 18px;"><div class="mask"><div id="line2_1" class="hide-line-2 orange" style="font-size: 22px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">February exam early</div></div><div class="mask"><div id="line2_2" class="hide-line-2 orange" style="font-size: 22px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">registration ends August 10.</div></div></div>
+            <div id="footer" style="left: 568px;"><div id="legal"></div></div>
+            <img id="logo" src="./logo_728x90.png" style="top: 27px; left: 427px;">
+            <div id="cta-container"><div id="cta" style="background: rgb(255, 164, 0); font-size: 12px; top: 48px; left: 610px; opacity: 1;">Register Now</div></div>
+         </div>
+      </div>
+      <script src="./textInput.js.download"></script>
+      <script> 
+        CSSPlugin.defaultTransformPerspective = 300;
+         //MAIN IMG SETTINGS
+         // ---------------------------------------------
+         // ---------------------------------------------
+         // ---------------------------------------------
+         // ---------------------------------------------
+         document.getElementById("main-img").style.width = mainImgWidth+"px";
+         document.getElementById("main-img").style.top = mainImgTop+"px";
+         document.getElementById("main-img").style.left = mainImgLeft+"px";
+         
+          // TEXT INPUT SETTINGS
+          // ---------------------------------------------
+          // ---------------------------------------------
+          // ---------------------------------------------
+          // ---------------------------------------------
+          
+          var line1_1 = '<div class="mask"><div id="line1_1" class="hide-line-1 '+accentColor+'" style="font-size:'+txt1Size+'px">'+line1_1+'</div></div>';
+          var line1_2 = '<div class="mask"><div id="line1_2" class="hide-line-1 '+accentColor+'" style="font-size:'+txt1Size+'px">'+line1_2+'</div></div>';  
+          var line1_3 = '<div class="mask"><div id="line1_3" class="hide-line-1 '+accentColor+'" style="font-size:'+txt1Size+'px">'+line1_3+'</div></div>';
+          // var line1_4 = '<div class="mask"><div id="line1_4" class="hide-line-1 '+accentColor+'" style="font-size:'+txt1Size+'px">'+line1_4+'</div></div>';  
+         
+          var line2_1 = '<div class="mask"><div id="line2_1" class="hide-line-2 '+accentColor+'" style="font-size:'+txt2Size+'px">'+line2_1+'</div></div>';
+          var line2_2 = '<div class="mask"><div id="line2_2" class="hide-line-2 '+accentColor+'" style="font-size:'+txt2Size+'px">'+line2_2+'</div></div>';  
+          // var line2_3 = '<div class="mask"><div id="line2_3" class="hide-line-2 '+accentColor+'" style="font-size:'+txt2Size+'px">'+line2_3+'</div></div>';
+          // var line2_4 = '<div class="mask"><div id="line2_4" class="hide-line-2 '+accentColor+'" style="font-size:'+txt2Size+'px">'+line2_4+'</div></div>';  
+         
+         
+          var ctaDiv = '<div id="cta" style="background:'+ctaAccentColor+'; font-size:'+ctaSize+'px; top:'+ctaTop+'px; left:'+ctaLeft+'px;">'+ctaText+'</div>';    
+          var legalDiv = '<div id="legal">'+legalText+'</div>';
+         
+          document.getElementById("txt1").innerHTML = line1_1 + line1_2;
+          document.getElementById("txt2").innerHTML = line2_1 + line2_2;
+          document.getElementById("footer").innerHTML = legalDiv; 
+          
+          document.getElementById("cta-container").innerHTML = ctaDiv;
+          
+          document.getElementById("logo").style.top = logoTop+"px";
+          document.getElementById("logo").style.left = logoLeft+"px";
+
+          document.getElementById("wrapper").style.background = bgColor;
+
+          document.getElementById("txt1").style.top = txt1Top+"px";
+          document.getElementById("txt2").style.top = txt2Top+"px";
+
+          document.getElementById("footer").style.left = legalLeft+"px";
+
+
+         
+          // TIMELINE
+          // ---------------------------------------------
+          // ---------------------------------------------
+          // ---------------------------------------------
+          // ---------------------------------------------
+
+          //set #content to visible right before timeline starts
+          TweenLite.set("#content", {
+              visibility: "visible"
+          });
+         
+          var master = new TimelineMax({
+              repeat: 0
+          });
+          
+          
+          function textAnimate() {
+              var tl = new TimelineMax({
+                  repeat: 0
+              });
+          
+              tl
+         
+           .set([".hide-line-1", ".hide-line-2"], {y:-35})
+           
+           .staggerTo(".hide-line-1", 0.5, {y: 0}, 0.5, 0.3)
+           .to("#txt1", 0.5, {opacity: 0}, "+=1.5")
+           
+           .staggerTo(".hide-line-2", 0.5, {y: 0}, 0.3, "+=0.5")
+           
+           .from("#cta", 0.5, {opacity: 0}, "+=0.5")
+           
+           .set({}, {}, "+=3")
+                  ;
+              // console.log("textAnimate: " + tl.duration());
+              return tl;
+          
+          }
+          
+          
+          // TIMELINE MASTER
+          master.add(textAnimate());
+          
+          
+          // master.pause(1);
+          // master.seek(6);
+          
+          // console.log(master.duration()); 
+          //Check entire duration
+            
+          // MORE SETTINGS
+          // ---------------------------------------------
+          // ---------------------------------------------
+          // ---------------------------------------------
+          // ---------------------------------------------
+         
+         
+         if (logoWider === true) {
+         var logoDiv = document.getElementById("logo");
+         logo.style.maxWidth = "142px";
+         logo.style.maxHeight = "40px";
+         }
+         
+         
+      </script>
+   
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
