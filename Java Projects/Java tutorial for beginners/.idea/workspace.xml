@@ -7,10 +7,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="22dWR9ZFWrExwA8kOQ7OiSgXuk9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,6 +39,8 @@
       <option name="presentableId" value="Default" />
       <updated>1640167937804</updated>
       <workItem from="1640167945076" duration="75000" />
+      <workItem from="1643885342715" duration="34000" />
+      <workItem from="1643885395274" duration="6000" />
     </task>
     <servers />
   </component>
