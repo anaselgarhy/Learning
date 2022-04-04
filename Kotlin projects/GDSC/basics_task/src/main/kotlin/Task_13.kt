@@ -1,3 +1,5 @@
+import java.awt.Font
+
 // check Whether a Character is Alphabet or Not.
 fun main() {
     print("Enter a character: ")
@@ -7,4 +9,5 @@ fun main() {
     } else {
         println("Not Alphabet")
     }
+    Font.SERIF
 }

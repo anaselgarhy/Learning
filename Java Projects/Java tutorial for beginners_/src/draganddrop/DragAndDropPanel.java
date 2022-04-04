@@ -8,13 +8,10 @@ import java.awt.event.MouseMotionAdapter;
 
 public class DragAndDropPanel extends JPanel {
     private final ImageIcon image;
-    private final int IMAGE_WIDTH, IMAGE_HEIGHT;
     private Point imageCorner, prevPt;
 
     public DragAndDropPanel() {
         image = new ImageIcon("grinning-face.png");
-        IMAGE_WIDTH = image.getIconWidth();
-        IMAGE_HEIGHT = image.getIconHeight();
         imageCorner = new Point(0, 0);
 
         ClickListener clickListener = new ClickListener();
@@ -34,6 +31,7 @@ public class DragAndDropPanel extends JPanel {
         @Override
         public void mousePressed(MouseEvent e) {
             prevPt = e.getPoint();
+            System.out.println("prevPt = " + prevPt);
         }
 
     }
