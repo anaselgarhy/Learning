@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ce44bb1-608d-4695-b6c8-07e473218901" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Android/Android Application Programming Professional(Barmej)/Code/GiftSuggestion" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Android Application Programming Professional(Barmej)/Code/GiftSuggestion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Android Application Programming Professional(Barmej)/Code/Weather-forecasts-app" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Android Application Programming Professional(Barmej)/Code/Weather-forecasts-app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Android Application Programming Professional(Barmej)/Projects/Heritage-word-game-project" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Android Application Programming Professional(Barmej)/Projects/Heritage-word-game-project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Android Application Programming Professional(Barmej)/Projects/Notes-app" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Android Application Programming Professional(Barmej)/Projects/Notes-app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Android Application Programming Professional(Barmej)/Projects/android-degree-studentproject-culturalwordsgame-base" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Android Application Programming Professional(Barmej)/Projects/android-degree-studentproject-culturalwordsgame-base" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/git-course" beforeDir="false" afterPath="$PROJECT_DIR$/../../Git/git-course" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Github/Anas-Elgarhy" beforeDir="false" afterPath="$PROJECT_DIR$/../../Github/Anas-Elgarhy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Barmej course/BMI" beforeDir="false" afterPath="$PROJECT_DIR$/../Barmej course/BMI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python projects/Learn Python in Arabic from scratch (step by step)" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python projects/Learn Python in Arabic from scratch (step by step)" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python projects/testM/Music-Synth" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python projects/testM/Music-Synth" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="254NPe5QbrqJUX7eDJQFnjqtb3T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.format.on.save.advertiser.fired" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="jna-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ce44bb1-608d-4695-b6c8-07e473218901" name="Changes" comment="" />
+      <created>1644782378844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644782378844</updated>
+      <workItem from="1644782380011" duration="1746000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

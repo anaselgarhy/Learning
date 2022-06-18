@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="394929e8-0bb3-4b9d-b191-10524aeb0ef7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1vdZoaGOeq2UnVIEV1ywqhJNOLH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunManager" selected="Application.Main (5)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SecoundExample.Main" />
+      <module name="Java 101 course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SecoundExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThirdExample.Main" />
+      <module name="Java 101 course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThirdExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FourthExample.Main" />
+      <module name="Java 101 course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FourthExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FifthExample.Main" />
+      <module name="Java 101 course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FifthExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SixthExample.Main" />
+      <module name="Java 101 course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SixthExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="394929e8-0bb3-4b9d-b191-10524aeb0ef7" name="Default Changelist" comment="" />
+      <created>1626894103219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626894103219</updated>
+      <workItem from="1626894105750" duration="8920000" />
+      <workItem from="1626946990581" duration="72000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

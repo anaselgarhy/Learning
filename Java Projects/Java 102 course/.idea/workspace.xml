@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Java 102 course:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d5cca5b3-6f36-4f72-94be-3336b9641f2a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1vfJ9pctuXGXGYybsxuZeicoZLW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="W:/Game-guessing-the-number-that-the-computer-thinks-about-TUI-Using-Java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examples.operatingSystem.Main" />
+      <module name="Java 102 course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.operatingSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examples.studentClass.Main" />
+      <module name="Java 102 course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.studentClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examples.calculator.Main" />
+      <module name="Java 102 course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examples.gui.Main" />
+      <module name="Java 102 course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recursive_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursive.Recursive_1" />
+      <module name="Java 102 course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Assert_1" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Recursive_1" />
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Recursive_1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5cca5b3-6f36-4f72-94be-3336b9641f2a" name="Default Changelist" comment="" />
+      <created>1626947062859</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626947062859</updated>
+      <workItem from="1626947064043" duration="7403000" />
+      <workItem from="1627079401110" duration="5152000" />
+      <workItem from="1627132520904" duration="10359000" />
+      <workItem from="1627241102011" duration="6338000" />
+      <workItem from="1627291007150" duration="7407000" />
+      <workItem from="1627402395341" duration="16252000" />
+      <workItem from="1627496434069" duration="11582000" />
+      <workItem from="1627553342698" duration="11753000" />
+      <workItem from="1627639569536" duration="29000" />
+      <workItem from="1627654383952" duration="247000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

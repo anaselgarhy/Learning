@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="069c8c4a-be44-4de7-a86b-8baa58b62351" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1wEaUny8QjaWwbO09TzdfwKBwHY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_opened_file_path" value="W:/File Encryption Virus - Using Java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="jdialog.examples.example2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Learning\Java Projects\Swing\src\jtabbedPane1\examples\example5\resources" />
+      <recent name="D:\Learning\Java Projects\Swing\src\jbutton1\examples\example3\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Learning\Java Projects\Swing\src\jpasswordFiled1\resources" />
+      <recent name="D:\Learning\Java Projects\Swing\src\jbutton1\examples\example3\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (3)">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jSplitPane1.examples.example1.Main" />
+      <module name="Swing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jSplitPane1.examples.example1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jcheckBox1.examples.example2.Main" />
+      <module name="Swing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jcheckBox1.examples.example2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jFileChooser1.examples.example3.Main" />
+      <module name="Swing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jFileChooser1.examples.example3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jSplitPane1.examples.example2.Main" />
+      <module name="Swing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jSplitPane1.examples.example2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main (5)" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Java Scratch.Scratch" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Java Scratch.Scratch" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (5)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="069c8c4a-be44-4de7-a86b-8baa58b62351" name="Default Changelist" comment="" />
+      <created>1628026222262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628026222262</updated>
+      <workItem from="1628026223455" duration="13558000" />
+      <workItem from="1628095475970" duration="9698000" />
+      <workItem from="1628110890452" duration="54992000" />
+      <workItem from="1628356779014" duration="13547000" />
+      <workItem from="1628454644923" duration="7249000" />
+      <workItem from="1628500300910" duration="165000" />
+      <workItem from="1628501363985" duration="58000" />
+      <workItem from="1628501577160" duration="188000" />
+      <workItem from="1628502829987" duration="67000" />
+      <workItem from="1628511061138" duration="56000" />
+      <workItem from="1628511617958" duration="211000" />
+      <workItem from="1628511843983" duration="562000" />
+      <workItem from="1628512421938" duration="35978000" />
+      <workItem from="1628697384271" duration="19292000" />
+      <workItem from="1628814581588" duration="330000" />
+      <workItem from="1628814925468" duration="356000" />
+      <workItem from="1628816219843" duration="21000" />
+      <workItem from="1628817196049" duration="260000" />
+      <workItem from="1628817473312" duration="70000" />
+      <workItem from="1628866700107" duration="12997000" />
+      <workItem from="1628952695241" duration="6232000" />
+      <workItem from="1628959347072" duration="6570000" />
+      <workItem from="1629005566751" duration="51979000" />
+      <workItem from="1629297696511" duration="11456000" />
+      <workItem from="1629377363924" duration="28774000" />
+      <workItem from="1629553426963" duration="15874000" />
+      <workItem from="1629627037626" duration="22178000" />
+      <workItem from="1629750372722" duration="4528000" />
+      <workItem from="1629757267121" duration="1359000" />
+      <workItem from="1629766787352" duration="124000" />
+      <workItem from="1630352680898" duration="3853000" />
+      <workItem from="1630612126914" duration="1377000" />
+      <workItem from="1631132126655" duration="8571000" />
+      <workItem from="1631399570439" duration="7736000" />
+      <workItem from="1631547315790" duration="1171000" />
+      <workItem from="1631643530092" duration="5687000" />
+      <workItem from="1632755499878" duration="998000" />
+      <workItem from="1632853874438" duration="656000" />
+      <workItem from="1633457306320" duration="825000" />
+      <workItem from="1633464037081" duration="703000" />
+      <workItem from="1633740424795" duration="32000" />
+      <workItem from="1634402136970" duration="3308000" />
+      <workItem from="1634449730888" duration="800000" />
+      <workItem from="1634571498339" duration="272000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Swing$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1628099861437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>jbutton1.examples.example2.*</FILTER>
+    </SUITE>
+  </component>
+</project>
