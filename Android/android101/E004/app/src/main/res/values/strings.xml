@@ -1,0 +1,5 @@
+<resources>
+	<string name="app_name">E004</string>
+	<string name="button_text">Show</string>
+	<string name="edit_text_hint">Enter any think</string>
+</resources>
