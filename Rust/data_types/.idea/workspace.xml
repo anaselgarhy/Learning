@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="86023111-80d5-4d80-b3f9-3ffd5ac2f86a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Kotlin projects/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kotlin projects/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kotlin projects/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kotlin projects/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kotlin projects/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kotlin projects/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kotlin projects/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Android Application Programming Professional(Barmej)/Code/GiftSuggestion" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Android Application Programming Professional(Barmej)/Code/GiftSuggestion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Android Application Programming Professional(Barmej)/Code/Weather-forecasts-app" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Android Application Programming Professional(Barmej)/Code/Weather-forecasts-app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Android Application Programming Professional(Barmej)/Projects/Heritage-word-game-project" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Android Application Programming Professional(Barmej)/Projects/Heritage-word-game-project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Android Application Programming Professional(Barmej)/Projects/Notes-app" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Android Application Programming Professional(Barmej)/Projects/Notes-app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Android Application Programming Professional(Barmej)/Projects/android-degree-studentproject-culturalwordsgame-base" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Android Application Programming Professional(Barmej)/Projects/android-degree-studentproject-culturalwordsgame-base" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/git-course" beforeDir="false" afterPath="$PROJECT_DIR$/../../Git/git-course" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Github/Anas-Elgarhy" beforeDir="false" afterPath="$PROJECT_DIR$/../../Github/Anas-Elgarhy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java Projects/Barmej course/BMI" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Projects/Barmej course/BMI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python projects/Learn Python in Arabic from scratch (step by step)" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python projects/Learn Python in Arabic from scratch (step by step)" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python projects/testM/Music-Synth" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python projects/testM/Music-Synth" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="r459o7fj" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2B6pja9zumr8ydYmUqYP3uF3Zo0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/anas",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "ruby.rails.projectView.checked": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run --package data_types --bin data_types" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86023111-80d5-4d80-b3f9-3ffd5ac2f86a" name="Changes" comment="" />
+      <created>1656236525211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656236525211</updated>
+      <workItem from="1656236529472" duration="1273000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

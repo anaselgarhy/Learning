@@ -1,0 +1,4 @@
+com/barmej/bookslibrary/BuildConfig.java
+ com.barmej.bookslibrary.BuildConfig
+com/barmej/bookslibrary/MainActivity.java
+ com.barmej.bookslibrary.MainActivity

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.anas.learning.javafx.switchbetwenscens.switchbetwenscenes.HelloController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="14.0" prefHeight="76.0" prefWidth="640.0" text="This is scene 1" textAlignment="JUSTIFY">
+         <font>
+            <Font size="53.0" />
+         </font>
+      </Label>
+      <Button layoutY="177.0" mnemonicParsing="false" onAction="#switchToScene2" prefHeight="110.0" prefWidth="650.0" text="Switch to scene 2">
+         <font>
+            <Font size="52.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

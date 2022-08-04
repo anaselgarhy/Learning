@@ -1,0 +1,10 @@
+com/example/noteroom/db/NoteDao_Impl.java
+ com.example.noteroom.db.NoteDao_Impl
+ com.example.noteroom.db.NoteDao_Impl$1
+ com.example.noteroom.db.NoteDao_Impl$2
+ com.example.noteroom.db.NoteDao_Impl$3
+com/example/noteroom/BuildConfig.java
+ com.example.noteroom.BuildConfig
+com/example/noteroom/db/NoteDatabase_Impl.java
+ com.example.noteroom.db.NoteDatabase_Impl
+ com.example.noteroom.db.NoteDatabase_Impl$1

@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.testproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:5:5-44:19
+12        android:allowBackup="true"
+12-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.2] C:\Users\xpana\.gradle\caches\transforms-2\files-2.1\79ee559483d346866425453a88a27286\core-1.3.2\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:10:9-35
+20        android:theme="@style/Theme.TestProject" >
+20-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:11:9-49
+21        <activity
+21-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:12:9-21:20
+22            android:name="com.example.testproject.tap2"
+22-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:13:13-33
+23            android:label="@string/title_activity_tap2"
+23-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:14:13-56
+24            android:theme="@style/Theme.TestProject.NoActionBar" >
+24-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:15:13-65
+25            <intent-filter>
+25-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:17:17-69
+26-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:19:17-77
+28-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity android:name="com.example.testproject.tapLayout" >
+31-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:22:9-28:20
+31-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:22:19-44
+32            <intent-filter>
+32-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:16:13-20:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:17:17-69
+33-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:17:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:19:17-77
+35-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:19:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity android:name="com.example.testproject.CardView" />
+38-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:29:9-46
+38-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:29:19-43
+39        <activity android:name="com.example.testproject.MainActivity2" >
+39-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:30:9-36:20
+39-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:30:19-48
+40            <intent-filter>
+40-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:16:13-20:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:17:17-69
+41-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:17:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:19:17-77
+43-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:19:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity android:name="com.example.testproject.MainActivity" >
+46-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:37:9-43:20
+46-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:37:19-47
+47            <intent-filter>
+47-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:16:13-20:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:17:17-69
+48-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:17:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:19:17-77
+50-->D:\The works\AndroidStudioProjects\TestProject\app\src\main\AndroidManifest.xml:19:27-74
+51            </intent-filter>
+52        </activity>
+53    </application>
+54
+55</manifest>

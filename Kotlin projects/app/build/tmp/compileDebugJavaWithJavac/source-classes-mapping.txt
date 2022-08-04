@@ -1,0 +1,2 @@
+com/anas/learning/kotlin/getage/BuildConfig.java
+ com.anas.learning.kotlin.getage.BuildConfig

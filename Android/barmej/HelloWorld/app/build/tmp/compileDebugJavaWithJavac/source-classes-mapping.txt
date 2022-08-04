@@ -1,0 +1,4 @@
+com/anas/learning/kotlin/helloworld/MainActivity.java
+ com.anas.learning.kotlin.helloworld.MainActivity
+com/anas/learning/kotlin/helloworld/BuildConfig.java
+ com.anas.learning.kotlin.helloworld.BuildConfig

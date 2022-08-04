@@ -1,0 +1,6 @@
+com/barmej/testapp1/MainActivity2.java
+ com.barmej.testapp1.MainActivity2
+com/barmej/testapp1/MainActivity.java
+ com.barmej.testapp1.MainActivity
+com/barmej/testapp1/BuildConfig.java
+ com.barmej.testapp1.BuildConfig

@@ -1,0 +1,8 @@
+.root {
+    -fx-background-color: #b0c4de;
+}
+
+#titleLabel {
+    -fx-font-family: "Cairo SemiBold";
+    -fx-font-size: 56px;
+}

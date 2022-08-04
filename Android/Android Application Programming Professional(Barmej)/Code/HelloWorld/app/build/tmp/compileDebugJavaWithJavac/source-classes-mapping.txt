@@ -1,0 +1,4 @@
+com/barmej/helloworld/MainActivity.java
+ com.barmej.helloworld.MainActivity
+com/barmej/helloworld/BuildConfig.java
+ com.barmej.helloworld.BuildConfig

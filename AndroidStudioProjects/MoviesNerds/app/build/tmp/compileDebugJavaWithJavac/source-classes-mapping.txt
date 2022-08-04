@@ -1,0 +1,6 @@
+com/example/moviesnerds/BuildConfig.java
+ com.example.moviesnerds.BuildConfig
+com/example/moviesnerds/ui/MainActivity.java
+ com.example.moviesnerds.ui.MainActivity
+com/example/moviesnerds/pojo/MovieModel.java
+ com.example.moviesnerds.pojo.MovieModel

@@ -1,0 +1,10 @@
+com/jimmy/pokeapp/BuildConfig.java
+ com.jimmy.pokeapp.BuildConfig
+com/jimmy/pokeapp/db/PokeFavoritesDatabase_Impl.java
+ com.jimmy.pokeapp.db.PokeFavoritesDatabase_Impl
+ com.jimmy.pokeapp.db.PokeFavoritesDatabase_Impl$1
+com/jimmy/pokeapp/db/PokeDao_Impl.java
+ com.jimmy.pokeapp.db.PokeDao_Impl
+ com.jimmy.pokeapp.db.PokeDao_Impl$1
+ com.jimmy.pokeapp.db.PokeDao_Impl$2
+ com.jimmy.pokeapp.db.PokeDao_Impl$3

@@ -1,0 +1,4 @@
+com/barmej/barmejcard/BuildConfig.java
+ com.barmej.barmejcard.BuildConfig
+com/barmej/barmejcard/MainActivity.java
+ com.barmej.barmejcard.MainActivity

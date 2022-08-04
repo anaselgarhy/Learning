@@ -1,0 +1,14 @@
+com/barmej/simplerecyclerview/NewsItem.java
+ com.barmej.simplerecyclerview.NewsItem
+com/barmej/simplerecyclerview/BuildConfig.java
+ com.barmej.simplerecyclerview.BuildConfig
+com/barmej/simplerecyclerview/NewsListGenerator.java
+ com.barmej.simplerecyclerview.NewsListGenerator
+com/barmej/simplerecyclerview/MainActivity.java
+ com.barmej.simplerecyclerview.MainActivity
+ com.barmej.simplerecyclerview.MainActivity$1
+com/barmej/simplerecyclerview/NewsAdapter.java
+ com.barmej.simplerecyclerview.NewsAdapter
+ com.barmej.simplerecyclerview.NewsAdapter$NewsViewHolder
+com/barmej/simplerecyclerview/OnListItemClickListener.java
+ com.barmej.simplerecyclerview.OnListItemClickListener

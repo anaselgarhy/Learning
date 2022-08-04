@@ -1,0 +1,4 @@
+com/barmej/drawableexamples/BuildConfig.java
+ com.barmej.drawableexamples.BuildConfig
+com/barmej/drawableexamples/MainActivity.java
+ com.barmej.drawableexamples.MainActivity

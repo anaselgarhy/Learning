@@ -1,0 +1,2 @@
+com/example/calculatetheage/BuildConfig.java
+ com.example.calculatetheage.BuildConfig

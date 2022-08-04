@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.anas.learning.javafx.communicationbetweencontrollers.communicationbetweencontrollers.FirstView">
+   <children>
+      <TextField fx:id="nameField" layoutX="99.0" layoutY="97.0" prefHeight="127.0" prefWidth="402.0" promptText="Enter your name">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Button layoutX="187.0" layoutY="255.0" mnemonicParsing="false" onAction="#login" prefHeight="76.0" prefWidth="225.0" text="Login">
+         <font>
+            <Font size="49.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

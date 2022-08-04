@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.anas.learning.android.drawable"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+8-->/mnt/Data/Learning/android/barmej/Drawable/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/mnt/Data/Learning/android/barmej/Drawable/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/mnt/Data/Learning/android/barmej/Drawable/app/src/main/AndroidManifest.xml:5:2-21:16
+12        android:allowBackup="true"
+12-->/mnt/Data/Learning/android/barmej/Drawable/app/src/main/AndroidManifest.xml:6:4-30
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] /home/anas/.gradle/caches/transforms-3/107b48ead489d4dd0a48badb09d9592d/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->/mnt/Data/Learning/android/barmej/Drawable/app/src/main/AndroidManifest.xml:7:4-38
+17        android:label="@string/app_name"
+17-->/mnt/Data/Learning/android/barmej/Drawable/app/src/main/AndroidManifest.xml:8:4-36
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->/mnt/Data/Learning/android/barmej/Drawable/app/src/main/AndroidManifest.xml:9:4-49
+19        android:supportsRtl="true"
+19-->/mnt/Data/Learning/android/barmej/Drawable/app/src/main/AndroidManifest.xml:10:4-30
+20        android:testOnly="true"
+21        android:theme="@style/Theme.Drawable" >
+21-->/mnt/Data/Learning/android/barmej/Drawable/app/src/main/AndroidManifest.xml:11:4-41
+22        <activity
+22-->/mnt/Data/Learning/android/barmej/Drawable/app/src/main/AndroidManifest.xml:12:3-20:14
+23            android:name="com.anas.learning.android.drawable.MainActivity"
+23-->/mnt/Data/Learning/android/barmej/Drawable/app/src/main/AndroidManifest.xml:13:5-33
+24            android:exported="true" >
+24-->/mnt/Data/Learning/android/barmej/Drawable/app/src/main/AndroidManifest.xml:14:5-28
+25            <intent-filter>
+25-->/mnt/Data/Learning/android/barmej/Drawable/app/src/main/AndroidManifest.xml:15:4-19:20
+26                <action android:name="android.intent.action.MAIN" />
+26-->/mnt/Data/Learning/android/barmej/Drawable/app/src/main/AndroidManifest.xml:16:5-56
+26-->/mnt/Data/Learning/android/barmej/Drawable/app/src/main/AndroidManifest.xml:16:13-54
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/mnt/Data/Learning/android/barmej/Drawable/app/src/main/AndroidManifest.xml:18:5-64
+28-->/mnt/Data/Learning/android/barmej/Drawable/app/src/main/AndroidManifest.xml:18:15-62
+29            </intent-filter>
+30        </activity>
+31
+32        <provider
+32-->[androidx.emoji2:emoji2:1.0.0] /home/anas/.gradle/caches/transforms-3/a6574320c86c3a37e884ef017c5b1904/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+33            android:name="androidx.startup.InitializationProvider"
+33-->[androidx.emoji2:emoji2:1.0.0] /home/anas/.gradle/caches/transforms-3/a6574320c86c3a37e884ef017c5b1904/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+34            android:authorities="com.anas.learning.android.drawable.androidx-startup"
+34-->[androidx.emoji2:emoji2:1.0.0] /home/anas/.gradle/caches/transforms-3/a6574320c86c3a37e884ef017c5b1904/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+35            android:exported="false" >
+35-->[androidx.emoji2:emoji2:1.0.0] /home/anas/.gradle/caches/transforms-3/a6574320c86c3a37e884ef017c5b1904/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+36            <meta-data
+36-->[androidx.emoji2:emoji2:1.0.0] /home/anas/.gradle/caches/transforms-3/a6574320c86c3a37e884ef017c5b1904/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+37                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+37-->[androidx.emoji2:emoji2:1.0.0] /home/anas/.gradle/caches/transforms-3/a6574320c86c3a37e884ef017c5b1904/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+38                android:value="androidx.startup" />
+38-->[androidx.emoji2:emoji2:1.0.0] /home/anas/.gradle/caches/transforms-3/a6574320c86c3a37e884ef017c5b1904/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+39            <meta-data
+39-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/anas/.gradle/caches/transforms-3/d2a3b14342a552ef8281dc10a1999877/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+40                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+40-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/anas/.gradle/caches/transforms-3/d2a3b14342a552ef8281dc10a1999877/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+41                android:value="androidx.startup" />
+41-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/anas/.gradle/caches/transforms-3/d2a3b14342a552ef8281dc10a1999877/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+42        </provider>
+43    </application>
+44
+45</manifest>

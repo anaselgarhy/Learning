@@ -1,0 +1,4 @@
+#Thu Jan 28 20:03:59 EET 2021
+base.0=D\:\\The works\\AndroidStudioProjects\\FristApp\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

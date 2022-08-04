@@ -1,0 +1,4 @@
+com/barmej/constraintlayoutexample/BuildConfig.java
+ com.barmej.constraintlayoutexample.BuildConfig
+com/barmej/constraintlayoutexample/MainActivity.java
+ com.barmej.constraintlayoutexample.MainActivity

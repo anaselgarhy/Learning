@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_save.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\drawable-xxhdpi\\ic_save.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_save.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\drawable-hdpi\\ic_save.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_add.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\layout_note_item_layout.xml.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\layout\\note_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_save.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\drawable-xhdpi\\ic_save.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_save.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\drawable-mdpi\\ic_save.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_add.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_notes.xml.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\layout\\activity_notes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\drawable-hdpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\menu_options.xml.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\menu\\options.xml"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_save.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_save.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_save.xml.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_save.xml"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_note_details.xml.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\layout\\activity_note_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_add.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_add.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\drawable-mdpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_add.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\drawable-xhdpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_add.xml.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_save.png.flat",
+        "source": "C:\\Users\\Merna\\AndroidStudioProjects\\NoteRoom\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_save.png"
+    }
+]

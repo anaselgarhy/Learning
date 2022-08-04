@@ -1,0 +1,2 @@
+com/example/sharedpreferences/BuildConfig.java
+ com.example.sharedpreferences.BuildConfig

@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_favorites.xml.flat",
+        "source": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\src\\main\\res\\layout\\activity_favorites.xml"
+    },
+    {
+        "merged": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_favorite_24.xml.flat",
+        "source": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\src\\main\\res\\drawable\\ic_baseline_favorite_24.xml"
+    },
+    {
+        "merged": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_card.xml.flat",
+        "source": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\src\\main\\res\\layout\\activity_card.xml"
+    },
+    {
+        "merged": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\The works\\AndroidStudioProjects\\PokeApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    }
+]
