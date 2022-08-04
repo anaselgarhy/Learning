@@ -1,0 +1,4 @@
+com/anas/learning/android/drawable/BuildConfig.java
+ com.anas.learning.android.drawable.BuildConfig
+com/anas/learning/android/drawable/MainActivity.java
+ com.anas.learning.android.drawable.MainActivity

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="41f11be0-2a6d-4958-8321-bcdfdb4b2ced" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Android/Android Application Programming Professional(Barmej)/Code/GiftSuggestion" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Android/Android Application Programming Professional(Barmej)/Code/GiftSuggestion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/Android Application Programming Professional(Barmej)/Code/Weather-forecasts-app" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Android/Android Application Programming Professional(Barmej)/Code/Weather-forecasts-app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/Android Application Programming Professional(Barmej)/Projects/Heritage-word-game-project" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Android/Android Application Programming Professional(Barmej)/Projects/Heritage-word-game-project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/Android Application Programming Professional(Barmej)/Projects/Notes-app" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Android/Android Application Programming Professional(Barmej)/Projects/Notes-app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/Android Application Programming Professional(Barmej)/Projects/android-degree-studentproject-culturalwordsgame-base" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Android/Android Application Programming Professional(Barmej)/Projects/android-degree-studentproject-culturalwordsgame-base" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/androidTest/java/com/anas/learning/android/android101/giftsuggestion/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/java/com/anas/android/giftsuggestion/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/app/src/test/java/com/anas/learning/android/android101/giftsuggestion/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/GiftSuggestion/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/HelloWorld/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/HelloWorld/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/HelloWorld/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/HelloWorld/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/HelloWorld/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/HelloWorld/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android/barmej/HelloWorld/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Git/git-course" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Git/git-course" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Github/Anas-Elgarhy" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Github/Anas-Elgarhy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java Projects/Barmej course/BMI" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java Projects/Barmej course/BMI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Kotlin projects/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Kotlin projects/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Kotlin projects/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Kotlin projects/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python projects/Learn Python in Arabic from scratch (step by step)" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Python projects/Learn Python in Arabic from scratch (step by step)" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python projects/testM/Music-Synth" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Python projects/testM/Music-Synth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Rust/Rust.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/anas/.android/avd/Pixel_3a_API_30.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="ktfsys83" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BZcFnicVXT5TcNDvgggRy3YzJh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/mnt/Data/Learning/android/barmej/Drawable/app/src/main/res/drawable&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
+    &quot;typescript.add.unambiguous.imports.on.the.fly&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Drawable.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41f11be0-2a6d-4958-8321-bcdfdb4b2ced" name="Changes" comment="" />
+      <created>1657116946840</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657116946840</updated>
+      <workItem from="1657116955787" duration="9596000" />
+      <workItem from="1657427653243" duration="28000" />
+      <workItem from="1657427714784" duration="4366000" />
+      <workItem from="1657457831775" duration="1404000" />
+      <workItem from="1657711734894" duration="233000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
