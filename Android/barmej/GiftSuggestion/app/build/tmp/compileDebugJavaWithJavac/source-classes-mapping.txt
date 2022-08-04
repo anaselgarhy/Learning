@@ -1,4 +1,0 @@
-com/anas/learning/android/android101/giftsuggestion/BuildConfig.java
- com.anas.learning.android.android101.giftsuggestion.BuildConfig
-com/anas/android/giftsuggestion/MainActivity.java
- com.anas.android.giftsuggestion.MainActivity
