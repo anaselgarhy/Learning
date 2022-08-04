@@ -1,4 +1,0 @@
-com/anas/learning/android/android101/e001/BuildConfig.java
- com.anas.learning.android.android101.e001.BuildConfig
-com/anas/learning/android/android101/e001/MainActivity.java
- com.anas.learning.android.android101.e001.MainActivity

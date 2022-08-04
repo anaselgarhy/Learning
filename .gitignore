@@ -1,5 +1,6 @@
-# Video
-*.mp4
-/Vdieo
-/Java Projects/jmonkeyP/BasicGame/nbproject/private/
-/Java Projects/jmonkeyP/BasicGame/build/
+# all hidden files
+.*
+
+# but not these
+!.gitignore
+!.idea
