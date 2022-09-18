@@ -1,6 +1,0 @@
-# all hidden files
-.*
-
-# but not these
-!.gitignore
-!.idea
