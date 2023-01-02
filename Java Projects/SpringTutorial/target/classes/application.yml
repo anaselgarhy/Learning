@@ -1,9 +1,0 @@
-server:
-  port: 8080
-
-spring:
-  data:
-    mongodb:
-      database: springbootTodos
-      host: localhost
-      port: 27017

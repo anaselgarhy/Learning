@@ -1,0 +1,60 @@
+	.text
+	.file	"main.c"
+	.globl	callee                          # -- Begin function callee
+	.p2align	4, 0x90
+	.type	callee,@function
+callee:                                 # @callee
+	.cfi_startproc
+# %bb.0:
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register %rbp
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movl	(%rax), %eax
+	addl	$1, %eax
+	popq	%rbp
+	.cfi_def_cfa %rsp, 8
+	retq
+.Lfunc_end0:
+	.size	callee, .Lfunc_end0-callee
+	.cfi_endproc
+                                        # -- End function
+	.globl	main                            # -- Begin function main
+	.p2align	4, 0x90
+	.type	main,@function
+main:                                   # @main
+	.cfi_startproc
+# %bb.0:
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register %rbp
+	subq	$16, %rsp
+	movq	%fs:40, %rax
+	movq	%rax, -8(%rbp)
+	movl	$0, -16(%rbp)
+	movl	$4, -12(%rbp)
+	leaq	-12(%rbp), %rdi
+	callq	callee
+	movq	%fs:40, %rcx
+	movq	-8(%rbp), %rdx
+	cmpq	%rdx, %rcx
+	jne	.LBB1_2
+# %bb.1:                                # %SP_return
+	addq	$16, %rsp
+	popq	%rbp
+	.cfi_def_cfa %rsp, 8
+	retq
+.LBB1_2:                                # %CallStackCheckFailBlk
+	.cfi_def_cfa %rbp, 16
+	callq	__stack_chk_fail@PLT
+.Lfunc_end1:
+	.size	main, .Lfunc_end1-main
+	.cfi_endproc
+                                        # -- End function
+	.ident	"clang version 14.0.6"
+	.section	".note.GNU-stack","",@progbits
