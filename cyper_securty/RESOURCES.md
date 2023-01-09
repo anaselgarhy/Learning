@@ -1,0 +1,2 @@
+- https://nsa-codebreaker.org/resources
+- https://sushant747.gitbooks.io/total-oscp-guide/content/port_forwarding_and_tunneling.html
